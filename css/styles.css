@@ -211,7 +211,7 @@ margin-top: 255px;
     background-color: white;
 }
 .category-tileWorks{
-      background-color: #ef5612;
+  background-color: #ef5612;
   border: 2px solid #3F0C1F;
   overflow: hidden;
   width: 300px;
@@ -239,12 +239,24 @@ margin-top: 255px;
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-     .item .col-md-12 {
+    /* .item .col-md-12 {
         margin-top: 50px;
         margin-left: 180px;
+    }*/
+.category-tileWorks{
+  background-color: #ef5612;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 250px;
+  height: 400px;
     }
+    .category-tileWorks img {
+
+        height: 200px;
+        width: 250px;
 
 
+    }
  .container .jumbotronone {
     background: url('../images/11-3.jpg') no-repeat;
     width: 400px;
@@ -270,12 +282,25 @@ h1#name {
 
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .item .col-sm-12 {
+   /* .item .col-sm-12 {
         margin-top: 50px;
         margin-left: 180px;
     }
+*/
+.category-tileWorks{
+  background-color: #ef5612;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 350px;
+    }
+    .category-tileWorks img {
+
+        height: 150px;
+        width: 200px;
 
 
+    }
  .container .jumbotronone {
     background: url('../images/11-4.jpg') no-repeat;
     width: 350px;
@@ -301,6 +326,21 @@ h1#name {
 }
 /********** Extra small devices only **********/
 @media (min-width: 100px) and (max-width: 767px) {
+
+    .category-tileWorks{
+  background-color: #ef5612;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+    }
+    .category-tileWorks img {
+
+        height: 50px;
+        width: 100px;
+
+
+    }
 
 .container .jumbotronone {
     margin-bottom: 20px;
@@ -330,7 +370,7 @@ h1#name {
   text-align: center;
   border-radius: 50%;
   vertical-align: middle;
-border: white;
+  border: white;
   padding: 11px;
   transition-duration: 300ms;
   transition-property: all;
@@ -340,6 +380,7 @@ border: white;
         width: 100%;
     }
   }
+
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
 
