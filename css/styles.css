@@ -231,8 +231,52 @@ margin-top: 255px;
     padding-right: -100px;*/
 }
 /****About me****/
+/***Contact form***/
 
+section#contact-area {
+    color: black;
+  background-image: url('../images/bg-3.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+.contact-content h1 {
+    color:black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+
+}
+.contact-content p {
+    background: rgba(132, 120, 120, 0.71) none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+}
+.contact-form-left { padding-left: 0; }
+.contact-form-right { padding-right: 0; }
+input {
+    margin-bottom: 15px;
+}
+.form-control {
+  border: none;
+  background: rgba(132, 120, 120, 0.71);
+}
+#comment.form-control {
+
+}
+.form-group button {
+  background: #262628 none repeat scroll 0 0;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius:10px;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
 /****Фото главное и И.Ф.О****/
 /*****Фото главное******/
 /********** Large devices only **********/
