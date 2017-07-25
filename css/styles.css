@@ -16,9 +16,15 @@ body {
 #main-content {
     background-color: rgba(247, 247, 247, 0.99);
 }
-#prommain{
+.prommain{
     background-color: rgba(247, 247, 247, 0.99);
+
 }
+.prommain h2{
+    padding-left: 100px;
+    background-color: white;
+}
+
 /********Лишнее************/
 /*
 #logo-img {
@@ -141,6 +147,16 @@ h3#namaOfskill {
     background-color: rgba(247, 247, 247, 0.99);
 
 }
+#skills{
+     margin-bottom: 10px;
+    margin-top: 10px;
+}
+.container#skills{
+
+     background-color: rgba(247, 247, 247, 0.99);
+}
+
+
 
 .category-tileSkills {
     position: relative;
@@ -194,22 +210,16 @@ margin-top: 255px;
 }
 
 /*Карусель*/
-
+.container#works{
+    background-color: rgba(247, 247, 247, 0.99);
+}
 #works{
-     background-color: rgba(247, 247, 247, 0.99);
-}
-
-#caruselbutt{
-
-   margin-bottom: -50px;
-    color: red;
-    background-color: red;
+   margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 
-#cont{
-    background-color: white;
-}
+
 .category-tileWorks{
   background-color: #ef5612;
   border: 2px solid #3F0C1F;
@@ -220,6 +230,8 @@ margin-top: 255px;
     margin-right: 60px;
     padding-right: -100px;*/
 }
+/****About me****/
+
 
 /****Фото главное и И.Ф.О****/
 /*****Фото главное******/
