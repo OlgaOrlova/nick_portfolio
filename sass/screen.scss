@@ -23,35 +23,17 @@ $font-stack: 'Merriweather', serif;
 
 /*Первая секция*/
 h1#name {
+  margin-top: $indenting-headers;
   color:  $font-colormainheader;
   font-size: 60px;
   text-transform: uppercase;
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-  h1#name {
+h4#work {
   color:  $font-colormainheader;
-  font-size: 45px;
-  text-transform: uppercase;
+  font-size: 25px;
+  padding-bottom: 20px;
 }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  h1#name {
-  color:  $font-colormainheader;
-  font-size: 40px;
-  text-transform: uppercase;
 
-}
-}
-/********** Extra small devices only **********/
-@media (min-width: 100px) and (max-width: 767px) {
-	 h1#name {
-  color:  $font-colormainheader;
-  font-size: 35px;
-  text-transform: uppercase;
-
-
-}
-}
 /*Вторая секция*/
 #menu-categoriesnamesOfAll-title{
 	font-family: $font-stack;
@@ -88,4 +70,45 @@ p#nameSkills{
     font-size: 16px;
     margin-bottom: 20px;
     padding: 20px 15px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  h1#name {
+  color:  $font-colormainheader;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+h4#work {
+  color:  $font-colormainheader;
+  font-size: 40px;
+  text-shadow: 1px 1px #333;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h1#name {
+  color:  $font-colormainheader;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+  h4#work {
+  color: $font-colormainheader;
+  font-size: 30px;
+
+}
+}
+/********** Extra small devices only **********/
+@media (min-width: 100px) and (max-width: 767px) {
+	 h1#name {
+  color:  $font-colormainheader;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+	h4#work {
+     text-align: center;
+  color:  $font-colormainheader;
+
+
+}
 }

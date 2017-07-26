@@ -74,12 +74,7 @@ ul li a {
   float: left;
 }
 
- h4#work {
-  color:  #49505F;
-  font-size: 25px;
-  text-shadow: 1px 1px #333;
-    padding-bottom: 20px;
-}
+
 /*.container .jumbotron {
     background: url('../images/11-1%20-%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg') no-repeat;
     width: 403px;
@@ -185,17 +180,12 @@ margin-top: 255px;
     margin-top: 10px;
 }
 
-
-
 .category-tileWorks{
   background-color: #ef5612;
   border: 2px solid #3F0C1F;
   overflow: hidden;
   width: 300px;
   height: 450px;
-/*margin-left: 30px;
-    margin-right: 60px;
-    padding-right: -100px;*/
 }
 /****About me****/
 /***Contact form***/
@@ -207,8 +197,6 @@ section#contact-area {
   background-size: cover;
   background-attachment: fixed;
 }
-
-
 .contact-form-left { padding-left: 0; }
 .contact-form-right { padding-right: 0; }
 input {
@@ -217,9 +205,6 @@ input {
 .form-control {
   border: none;
   background: rgba(132, 120, 120, 0.71);
-}
-#comment.form-control {
-
 }
 .form-group button {
   background: #262628 none repeat scroll 0 0;
@@ -244,7 +229,6 @@ input {
     margin-top: 30px;
     right: 0;
     margin-left: 50px;
-
 }
 }
 /********** Medium devices only **********/
@@ -261,11 +245,8 @@ input {
   height: 400px;
     }
     .category-tileWorks img {
-
         height: 200px;
         width: 250px;
-
-
     }
  .container .jumbotronone {
     background: url('../images/11-3.jpg') no-repeat;
@@ -277,12 +258,6 @@ input {
   }
   .container .jumbotronTwo{
   float: left;
-}
-
- h4#work {
-  color:  #49505F;
-  font-size: 20px;
-  text-shadow: 1px 1px #333;
 }
 
 }
@@ -300,11 +275,8 @@ input {
   height: 350px;
     }
     .category-tileWorks img {
-
         height: 150px;
         width: 200px;
-
-
     }
  .container .jumbotronone {
     background: url('../images/11-4.jpg') no-repeat;
@@ -316,12 +288,6 @@ input {
   }
   .container .jumbotronTwo{
   float: left;
-}
-
- h4#work {
-  color:  #49505F;
-  font-size: 15px;
-  text-shadow: 1px 1px #333;
 }
 }
 /********** Extra small devices only **********/
@@ -335,31 +301,14 @@ input {
   height: 100px;
     }
     .category-tileWorks img {
-
         height: 50px;
         width: 100px;
-
-
     }
 
 .container .jumbotronone {
     margin-bottom: 20px;
     margin-top: 30px;
-
   }
-   h1#name {
-  color:  #49505F;
-  font-size: 20px;
-  text-transform: uppercase;
-
-
-}
- h4#work {
-     text-align: center;
-  color:  #49505F;
-
-
-}
    .social-icons {
   display: inline-block;
   width: 30px;

@@ -77,38 +77,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*╨Я╨╡╤А╨▓╨░╤П ╤Б╨╡╨║╤Ж╨╕╤П*/
 /* line 25, ../sass/screen.scss */
 h1#name {
+  margin-top: 10px;
   color: #49505F;
   font-size: 60px;
   text-transform: uppercase;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* line 31, ../sass/screen.scss */
-  h1#name {
-    color: #49505F;
-    font-size: 45px;
-    text-transform: uppercase;
-  }
+/* line 31, ../sass/screen.scss */
+h4#work {
+  color: #49505F;
+  font-size: 25px;
+  padding-bottom: 20px;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 38, ../sass/screen.scss */
-  h1#name {
-    color: #49505F;
-    font-size: 40px;
-    text-transform: uppercase;
-  }
-}
-/********** Extra small devices only **********/
-@media (min-width: 100px) and (max-width: 767px) {
-  /* line 47, ../sass/screen.scss */
-  h1#name {
-    color: #49505F;
-    font-size: 35px;
-    text-transform: uppercase;
-  }
-}
+
 /*╨Т╤В╨╛╤А╨░╤П ╤Б╨╡╨║╤Ж╨╕╤П*/
-/* line 56, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 #menu-categoriesnamesOfAll-title {
   font-family: "Merriweather", serif;
   font-size: 30px;
@@ -118,7 +101,7 @@ h1#name {
 }
 
 /*╨в╤А╨╡╤В╤М╤П ╤Б╨╡╨║╤Ж╨╕╤П "╨Э╨░╨▓╤Л╨║╨╕"*/
-/* line 66, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 p#nameSkills {
   margin-top: 5px;
   margin-left: 10px;
@@ -129,7 +112,7 @@ p#nameSkills {
 
 /*╨Я╨╛╤Б╨╗╨╡╨┤╨╜╤П╤П ╤Б╨╡╨║╤Ж╨╕╤П ╨║╨╛╨╜╤В╨░╨║╤В╨╛╨▓*/
 /***Contact form***/
-/* line 77, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .contact-content h1 {
   color: black;
   text-transform: capitalize;
@@ -137,7 +120,7 @@ p#nameSkills {
   font-size: 30px;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .contact-content p {
   background: rgba(132, 120, 120, 0.71) none repeat scroll 0 0;
   border-radius: 5px;
@@ -145,4 +128,49 @@ p#nameSkills {
   font-size: 16px;
   margin-bottom: 20px;
   padding: 20px 15px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 77, ../sass/screen.scss */
+  h1#name {
+    color: #49505F;
+    font-size: 45px;
+    text-transform: uppercase;
+  }
+
+  /* line 82, ../sass/screen.scss */
+  h4#work {
+    color: #49505F;
+    font-size: 40px;
+    text-shadow: 1px 1px #333;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 89, ../sass/screen.scss */
+  h1#name {
+    color: #49505F;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  /* line 95, ../sass/screen.scss */
+  h4#work {
+    color: #49505F;
+    font-size: 30px;
+  }
+}
+/********** Extra small devices only **********/
+@media (min-width: 100px) and (max-width: 767px) {
+  /* line 103, ../sass/screen.scss */
+  h1#name {
+    color: #49505F;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+
+  /* line 108, ../sass/screen.scss */
+  h4#work {
+    text-align: center;
+    color: #49505F;
+  }
 }
