@@ -73,12 +73,7 @@ ul li a {
 .container .jumbotronTwo{
   float: left;
 }
-h1#name {
-  color:  #49505F;
-  font-size: 60px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px #000;
-}
+
  h4#work {
   color:  #49505F;
   font-size: 25px;
@@ -120,28 +115,6 @@ border: white;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-
-
-
-
-
-/*********Второй блок**********/
-#twoblok {
-    background-color: red;
-    height: 500px;
-    padding-top: 30px;
-}
-h3#namaOfskill {
-    font-size: 40px;
-    color:  #383E4C;
-    text-transform: uppercase;
-    text-shadow: 2px 2px #000;}
-
-
-#menu-categoriesnamesOfAll-title{
-    color: black;
-    font-family: 'Merriweather', serif;
-}
 /*Сетка навыков*/
 #skills{
     background-color: rgba(247, 247, 247, 0.99);
@@ -167,13 +140,7 @@ h3#namaOfskill {
   height: 300px;
   margin: 0 auto 15px;
 }
-p#nameSkills{
-  margin-top: 5px;
-    margin-left: 10px;
-    color: black;
-    font-size: 15px;
-   font-family: 'Merriweather', serif;
-}
+
 #nameSkillsIcons{
 
 display: inline-block;
@@ -234,27 +201,14 @@ margin-top: 255px;
 /***Contact form***/
 
 section#contact-area {
-    color: black;
+  color: black;
   background-image: url('../images/bg-3.jpg');
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.contact-content h1 {
-    color:black;
-    text-transform: capitalize;
-    margin-bottom: 30px;
 
-}
-.contact-content p {
-    background: rgba(132, 120, 120, 0.71) none repeat scroll 0 0;
-    border-radius: 5px;
-    color: #000;
-    font-size: 16px;
-    margin-bottom: 20px;
-    padding: 20px 15px;
-}
 .contact-form-left { padding-left: 0; }
 .contact-form-right { padding-right: 0; }
 input {
@@ -324,12 +278,7 @@ input {
   .container .jumbotronTwo{
   float: left;
 }
-h1#name {
-  color:  #49505F;
-  font-size: 45px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px #000;
-}
+
  h4#work {
   color:  #49505F;
   font-size: 20px;
@@ -368,12 +317,7 @@ h1#name {
   .container .jumbotronTwo{
   float: left;
 }
-h1#name {
-  color:  #49505F;
-  font-size: 40px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px #000;
-}
+
  h4#work {
   color:  #49505F;
   font-size: 15px;

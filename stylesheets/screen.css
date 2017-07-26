@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -65,4 +66,83 @@ a img {
 /* line 116, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
+}
+
+/*╨а╨░╨╖╨╝╨╡╤А ╨│╨╗╨░╨▓╨╜╨╛╨│╨╛ ╨╖╨░╨│╨╛╨╗╨╛╨▓╨║╨░ ╨┐╨╡╤А╨▓╨╛╨╣ ╤Б╨╡╨║╤Ж╨╕╨╕*/
+/*Font color headers names*/
+/*╨ж╨▓╨╡╤В ╤И╤А╨╕╤Д╤В╨╛╨▓ ╨╛╤Б╨╜╨╛╨▓╨╜╨╛╨│╨╛ ╤В╨╡╨║╤Б╤В╨░*/
+/*╨Ю╤В╤Б╤В╤Г╨┐╤Л ╨╖╨░╨│╨╛╨╗╨╛╨▓╨║╨╛╨▓*/
+/*╨а╨░╨╖╨╝╨╡╤А ╤И╤А╨╕╤Д╤В╨╛╨▓ ╨╖╨░╨│╨╛╨╗╨╛╨▓╨║╨╛╨▓*/
+/*╨в╨╕╨┐ ╤И╤А╨╕╤Д╤В╨╛╨▓*/
+/*╨Я╨╡╤А╨▓╨░╤П ╤Б╨╡╨║╤Ж╨╕╤П*/
+/* line 25, ../sass/screen.scss */
+h1#name {
+  color: #49505F;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 31, ../sass/screen.scss */
+  h1#name {
+    color: #49505F;
+    font-size: 45px;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 38, ../sass/screen.scss */
+  h1#name {
+    color: #49505F;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+}
+/********** Extra small devices only **********/
+@media (min-width: 100px) and (max-width: 767px) {
+  /* line 47, ../sass/screen.scss */
+  h1#name {
+    color: #49505F;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+}
+/*╨Т╤В╨╛╤А╨░╤П ╤Б╨╡╨║╤Ж╨╕╤П*/
+/* line 56, ../sass/screen.scss */
+#menu-categoriesnamesOfAll-title {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #49505F;
+  font-family: 'Merriweather', serif;
+}
+
+/*╨в╤А╨╡╤В╤М╤П ╤Б╨╡╨║╤Ж╨╕╤П "╨Э╨░╨▓╤Л╨║╨╕"*/
+/* line 66, ../sass/screen.scss */
+p#nameSkills {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+}
+
+/*╨Я╨╛╤Б╨╗╨╡╨┤╨╜╤П╤П ╤Б╨╡╨║╤Ж╨╕╤П ╨║╨╛╨╜╤В╨░╨║╤В╨╛╨▓*/
+/***Contact form***/
+/* line 77, ../sass/screen.scss */
+.contact-content h1 {
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+/* line 84, ../sass/screen.scss */
+.contact-content p {
+  background: rgba(132, 120, 120, 0.71) none repeat scroll 0 0;
+  border-radius: 5px;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 20px 15px;
 }
