@@ -1,4 +1,31 @@
+#toTop {
+
+	height: 100%;
+	width: 60px;
+border:1px solid rgba(255, 255, 255, 0.12);
+background:rgba(255, 255, 255, 0.12);
+position:fixed;
+bottom:0px; /* отступ кнопки от нижнего края страницы*/
+right:0px;
+cursor:pointer;
+display:none;
+color:#333;
+padding-bottom: 900px;
+font-family:verdana;
+font-size:15px;
+
+}
+/*
+#scrollButtonName{
+font-family:verdana;
+font-size:11px;
+	margin-bottom: 1000px;
+
+}
+*/
+
 body {
+
   font-size: 16px;
   color: #fff;
   background-color: white;
