@@ -1,3 +1,11 @@
+
+#b:hover {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+margin-right: 20px;
+}
+
 #toTop {
 
 	height: 100%;
@@ -201,12 +209,15 @@ margin-top: 255px;
 }
 
 /*Карусель*/
+
 .container#works{
     background-color: rgba(247, 247, 247, 0.99);
+
 }
 #works{
    margin-bottom: 10px;
     margin-top: 10px;
+/*	padding-left: 30px;*/
 }
 
 .category-tileWorks{
@@ -215,6 +226,7 @@ margin-top: 255px;
   overflow: hidden;
   width: 300px;
   height: 450px;
+	margin-left: 50px;
 }
 /****About me****/
 /***Contact form***/
@@ -322,13 +334,16 @@ input {
 /********** Extra small devices only **********/
 @media (min-width: 100px) and (max-width: 767px) {
 
+
     .category-tileWorks{
   background-color: #ef5612;
   border: 2px solid #3F0C1F;
   overflow: hidden;
   width: 100px;
-  height: 100px;
+  height: 150px;
+
     }
+
     .category-tileWorks img {
         height: 50px;
         width: 100px;
@@ -361,7 +376,12 @@ input {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+    .category-tileWorks{
+margin-left: 10px;
+  width: 70px;
+  height: 70px;
 
+    }
 
   .col-xxs-12 {
     position: relative;

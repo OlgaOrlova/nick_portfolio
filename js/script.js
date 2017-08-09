@@ -48,3 +48,116 @@ $('body,html').animate({scrollTop:0},800);
 });
 
 });
+
+/*Карусель*/
+var data = [{
+	"id": 0
+	, "name": "Phil"
+}, {
+	"id": 1
+	, "name": "Ed"
+}, {
+	"id": 2
+	, "name": "Fred"
+}];
+var datatwo = [{
+	"id": 0
+	, "name": "Phil"
+}, {
+	"id": 1
+	, "name": "Ed"
+}, {
+	"id": 2
+	, "name": "Fred"
+}];
+var datathree = [{
+	"id": 0
+	, "name": "Phil"
+}, {
+	"id": 1
+	, "name": "Ed"
+}, {
+	"id": 2
+	, "name": "Fred"
+}];
+data.forEach(function (person) {
+	var listButton = document.createElement('listButton');
+	listButton.className = "category-tileWorks col-lg-4 col-md-4 col-sm-4 col-xs-4 col-xxs-4";
+	var text = "<b>ID:</b> " + person.id + "<br>";
+	text = text + "<b>Name:</b> " + person.name;
+	listButton.innerHTML = text;
+
+	var button = document.createElement('button');
+		button.className = "listButto";
+	    button.style.display = "none";
+		listButton.appendChild(button);
+		button.addEventListener("click", function () {
+			window.open("https://www.w3schools.com");
+		}, false);
+
+	listButton.addEventListener("mouseover", function () {
+	button.style.display = "inline-block";
+	}, false);
+
+
+	listButton.addEventListener("mouseout", function () {
+	button.style.display = "none";
+	}, false);
+
+
+	document.getElementById("output").appendChild(listButton);
+});
+datatwo.forEach(function (person) {
+	var listButton = document.createElement('listButton');
+	listButton.className = "category-tileWorks col-lg-4 col-md-4 col-sm-4 col-xs-4 col-xxs-4";
+	var text = "<b>ID:</b> " + person.id + "<br>";
+	text = text + "<b>Name:</b> " + person.name;
+	listButton.innerHTML = text;
+
+	var button = document.createElement('button');
+		button.className = "listButto";
+	    button.style.display = "none";
+		listButton.appendChild(button);
+		button.addEventListener("click", function () {
+			window.open("https://www.w3schools.com");
+		}, false);
+
+	listButton.addEventListener("mouseover", function () {
+	button.style.display = "inline-block";
+	}, false);
+
+
+	listButton.addEventListener("mouseout", function () {
+	button.style.display = "none";
+	}, false);
+
+
+	document.getElementById("outputtwo").appendChild(listButton);
+});
+datathree.forEach(function (person) {
+	var listButton = document.createElement('listButton');
+	listButton.className = "category-tileWorks col-lg-4 col-md-4 col-sm-4 col-xs-4 col-xxs-4";
+	var text = "<b>ID:</b> " + person.id + "<br>";
+	text = text + "<b>Name:</b> " + person.name;
+	listButton.innerHTML = text;
+
+	var button = document.createElement('button');
+		button.className = "listButto";
+	    button.style.display = "none";
+		listButton.appendChild(button);
+		button.addEventListener("click", function () {
+			window.open("https://www.w3schools.com");
+		}, false);
+
+	listButton.addEventListener("mouseover", function () {
+	button.style.display = "inline-block";
+	}, false);
+
+
+	listButton.addEventListener("mouseout", function () {
+	button.style.display = "none";
+	}, false);
+
+
+	document.getElementById("outputhree").appendChild(listButton);
+});
