@@ -79,32 +79,27 @@ var data2 =[
 
 function initCarusel(data , data1 , data2 ){
 
-	createItems(data );
-	createItems(data1 );
-	createItems(data2 );
+	var slide = document.createElement('div');
+	createItems(data , slide );
+
+
+	var slide1 = document.createElement('div');
+	createItems(data1 , slide1);
+
+
+	var slide2 = document.createElement('div');
+	createItems(data2, slide2 );
 }
 
- function createItems(data ){
+ function createItems(data , slide ){
 	 var slideContainer = document.getElementById("slideContainer");
 
-	var slide = document.createElement('div');
-	var slide1 = document.createElement('div');
-	var slide2 = document.createElement('div');
 	 slide.class="item";
-	 slide1.class="item";
-	 slide2.class="item";
 	for(var i = 0; i < data.length; i++){
 		slide.appendChild(createItem(data[i]));
 	}
-	 for(var i = 0; i < data.length; i++){
-		slide1.appendChild(createItem(data[i]));
-	}
-	 for(var i = 0; i < data.length; i++){
-		slide2.appendChild(createItem(data[i]));
-	}
+
 	 slideContainer.appendChild(slide);
-	 slideContainer.appendChild(slide1);
-	 slideContainer.appendChild(slide2);
  }
 
 
