@@ -79,22 +79,17 @@ var data2 =[
 
 function initCarusel(data , data1 , data2 ){
 
-	var slide = document.createElement('div');
-	createItems(data , slide );
+	createItems(data);
+	createItems(data1);
+	createItems(data2);
 
-
-	var slide1 = document.createElement('div');
-	createItems(data1 , slide1);
-
-
-	var slide2 = document.createElement('div');
-	createItems(data2, slide2 );
 }
 
- function createItems(data , slide ){
+ function createItems(data  ){
 	 var slideContainer = document.getElementById("slideContainer");
 
-	 slide.class="item";
+	var slide = document.createElement('div');
+	 slide.className="item";
 	for(var i = 0; i < data.length; i++){
 		slide.appendChild(createItem(data[i]));
 	}
