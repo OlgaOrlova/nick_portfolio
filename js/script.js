@@ -78,33 +78,45 @@ var data2 =[
 }];
 
 function initCarusel(data , data1 , data2 ){
-	var slide = createSlide();
-	createItems(data, slide);
+
+	createItems(data );
+	createItems(data1 );
+	createItems(data2 );
 }
 
- function createItems(data, slide){
+ function createItems(data ){
+	 var slideContainer = document.getElementById("slideContainer");
+
+	var slide = document.createElement('div');
+	var slide1 = document.createElement('div');
+	var slide2 = document.createElement('div');
+	 slide.class="item";
+	 slide1.class="item";
+	 slide2.class="item";
 	for(var i = 0; i < data.length; i++){
-		createItem(data[i], slide);
+		slide.appendChild(createItem(data[i]));
 	}
+	 for(var i = 0; i < data.length; i++){
+		slide1.appendChild(createItem(data[i]));
+	}
+	 for(var i = 0; i < data.length; i++){
+		slide2.appendChild(createItem(data[i]));
+	}
+	 slideContainer.appendChild(slide);
+	 slideContainer.appendChild(slide1);
+	 slideContainer.appendChild(slide2);
  }
 
 
-function createSlide() {
-	var slideContainer = document.getElementById("slideContainer");
-	var slide = document.createElement('div');
-	slide.className = "item active";
-	slide.idName = "output";
-	slideContainer.appendChild(slide);
-		var item= document.createElement("div");
-	item.style.background = "#FF00000";
-	item.style.width = 100;
-	item.style.height = 100;
-	slide.appendChild(item);
-	return slide;
 
-}
+function createItem(person) {
 
-function createItem(person , slide) {
+	var item = document.createElement('div');
+
+	var text = "<b>ID:</b> " + person.id + "<br>";
+	text = text + "<b>Name:</b> " + person.name;
+	item.innerHTML = text;
+	return item;
 	/*var listButton = document.createElement('button');
 	listButton.className = "category-tileWorks col-lg-4 col-md-4 col-sm-4 col-xs-4 col-xxs-4";
 	var text = "<b>ID:</b> " + person.id + "<br>";
@@ -132,5 +144,9 @@ function createItem(person , slide) {
 	item.style.width = 100;
 	item.style.height = 100;
 	slide.appendChild(item);*/
+
+
 }
+
+
 initCarusel(data, data1, data2);
