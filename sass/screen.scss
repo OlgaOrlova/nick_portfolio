@@ -6,109 +6,125 @@
 @import "compass/reset";
 
 /*Размер главного заголовка первой секции*/
+
 $font-colormainheader:#49505F;
 
-
-
 /*Font color headers names*/
+
 $font-colorheaders:#49505F;
+
 /*Цвет шрифтов основного текста*/
+
 $font-colorofmaintext: black;
+
 /*Отступы заголовков*/
+
 $indenting-headers:10px;
+
 /*Размер шрифтов заголовков*/
+
 $headline-fonts:30px;
+
 /*Тип шрифтов*/
-$font-stack: 'Merriweather', serif;
+
+$font-stack: 'Merriweather',
+serif;
 
 /*Первая секция*/
+
 h1#name {
-  margin-top: $indenting-headers;
-  color:  $font-colormainheader;
-  font-size: 60px;
-  text-transform: uppercase;
-}
-h4#work {
-  color:  $font-colormainheader;
-  font-size: 25px;
-  padding-bottom: 20px;
+	margin-top: $indenting-headers;
+	color: $font-colormainheader;
+	font-size: 60px;
+	text-transform: uppercase;
 }
 
+h4#work {
+	color: $font-colormainheader;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+
 /*Вторая секция*/
-#menu-categoriesnamesOfAll-title{
+
+#menu-categoriesnamesOfAll-title {
 	font-family: $font-stack;
 	font-size: $headline-fonts;
 	margin-top: $indenting-headers;
-    color: $font-colorheaders;
-    font-family: 'Merriweather', serif;
+	color: $font-colorheaders;
+	font-family: 'Merriweather', serif;
 }
+
 
 /*Третья секция "Навыки"*/
 
-p#nameSkills{
-  margin-top: 5px;
-  margin-left: 10px;
-  color: $font-colorofmaintext;
-  font-size: 15px;
-  font-family: 'Merriweather', serif;
+p#nameSkills {
+	margin-top: 5px;
+	margin-left: 10px;
+	color: $font-colorofmaintext;
+	font-size: 15px;
+	font-family: 'Merriweather', serif;
 }
 
+
 /*Последняя секция контактов*/
+
+
 /***Contact form***/
 
 .contact-content h1 {
-    color:$font-colorofmaintext;
-    text-transform: capitalize;
-    margin-bottom: 30px;
+	color: $font-colorofmaintext;
+	text-transform: capitalize;
+	margin-bottom: 30px;
 	font-size: $headline-fonts;
-
 }
+
 .contact-content p {
-    background: rgba(132, 120, 120, 0.71) none repeat scroll 0 0;
-    border-radius: 5px;
-    color: $font-colorofmaintext;
-    font-size: 16px;
-    margin-bottom: 20px;
-    padding: 20px 15px;
+	background: rgba(132, 120, 120, 0.71) none repeat scroll 0 0;
+	border-radius: 5px;
+	color: $font-colorofmaintext;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 20px 15px;
 }
-
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  h1#name {
-  color:  $font-colormainheader;
-  font-size: 45px;
-  text-transform: uppercase;
-}
-h4#work {
-  color:  $font-colormainheader;
-  font-size: 40px;
-  text-shadow: 1px 1px #333;
-}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  h1#name {
-  color:  $font-colormainheader;
-  font-size: 40px;
-  text-transform: uppercase;
-
-}
-  h4#work {
-  color: $font-colormainheader;
-  font-size: 30px;
-
-}
-}
-/********** Extra small devices only **********/
-@media (min-width: 100px) and (max-width: 767px) {
-	 h1#name {
-  color:  $font-colormainheader;
-  font-size: 35px;
-  text-transform: uppercase;
-}
+	h1#name {
+		color: $font-colormainheader;
+		font-size: 45px;
+		text-transform: uppercase;
+	}
 	h4#work {
-     text-align: center;
-  color:  $font-colormainheader;
-
-
+		color: $font-colormainheader;
+		font-size: 40px;
+		text-shadow: 1px 1px #333;
+	}
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+	h1#name {
+		color: $font-colormainheader;
+		font-size: 40px;
+		text-transform: uppercase;
+	}
+	h4#work {
+		color: $font-colormainheader;
+		font-size: 30px;
+	}
+}
+
+
+/********** Extra small devices only **********/
+
+@media (min-width: 100px) and (max-width: 767px) {
+	h1#name {
+		color: $font-colormainheader;
+		font-size: 35px;
+		text-transform: uppercase;
+	}
+	h4#work {
+		text-align: center;
+		color: $font-colormainheader;
+	}
 }

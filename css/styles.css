@@ -1,30 +1,32 @@
-
 #b:hover {
 	width: 20px;
 	height: 20px;
 	background-color: black;
-margin-right: 20px;
+	margin-right: 20px;
 }
 
 #toTop {
-
 	height: 100%;
 	width: 60px;
-border:1px solid rgba(255, 255, 255, 0.12);
-background:rgba(255, 255, 255, 0.12);
-position:fixed;
-bottom:0px; /* отступ кнопки от нижнего края страницы*/
-right:0px;
-cursor:pointer;
-display:none;
-color:#333;
-padding-bottom: 650px;
-font-family:verdana;
-font-size:15px;
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	background: rgba(255, 255, 255, 0.12);
+	position: fixed;
+	bottom: 0px;
+	/* отступ кнопки от нижнего края страницы*/
+	right: 0px;
+	cursor: pointer;
+	display: none;
+	color: #333;
+	padding-bottom: 650px;
+	font-family: verdana;
+	font-size: 15px;
 }
+
 #toTop:hover {
-	background-color:rgba(239, 86, 18, 0.18);
+	background-color: rgba(239, 86, 18, 0.18);
 }
+
+
 /*
 #scrollButtonName{
 font-family:verdana;
@@ -35,34 +37,42 @@ font-size:11px;
 */
 
 body {
-
-  font-size: 16px;
-  color: #fff;
-  background-color: white;
-  font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
 }
+
 
 /** HEADER **/
-#header-nav {
-   margin-bottom: 0;
-  background-color: #383E4C;
-  border-radius: 0;
-  border: 0;
-}
-/***Фон первого блока*****/
-#main-content {
-    background-color: rgba(247, 247, 247, 0.99);
-}
-.prommain{
-    background-color: rgba(247, 247, 247, 0.99);
 
+#header-nav {
+	margin-bottom: 0;
+	background-color: #383E4C;
+	border-radius: 0;
+	border: 0;
 }
-.prommain h2{
-    padding-left: 100px;
-    background-color: white;
+
+
+/***Фон первого блока*****/
+
+#main-content {
+	background-color: rgba(247, 247, 247, 0.99);
 }
+
+.prommain {
+	background-color: rgba(247, 247, 247, 0.99);
+}
+
+.prommain h2 {
+	padding-left: 100px;
+	background-color: white;
+}
+
 
 /********Лишнее************/
+
+
 /*
 #logo-img {
   background: url('../images/restaurant-logo_large.png') no-repeat;
@@ -71,44 +81,55 @@ body {
   margin: 10px 15px 10px 0;
 }
 */
+
+
 /******Для меню которое открывается*****/
+
 #nav-list {
-  margin-top: 10px;
-    background-color: #383E4C;
+	margin-top: 10px;
+	background-color: #383E4C;
 }
+
 #nav-list a {
-  color: white;
-  text-align: center;
+	color: white;
+	text-align: center;
 }
+
 #nav-list a:focus,
 #nav-list a:hover {
-  background: #49505F;
+	background: #49505F;
 }
-ul#nav-list {
-background: #383E4C;
-padding: 6px;
-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 
+ul#nav-list {
+	background: #383E4C;
+	padding: 6px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
+
+
 /*.main-menu {
   margin-top: -234px;
 }*/
+
 ul li {
-  display: inline-block;
-  padding-left: 10px;
-}
-ul li a {
-  background: #383E4C none repeat scroll 0 0;
-  border: 1px solid #646d7c;
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  text-transform: capitalize;
+	display: inline-block;
+	padding-left: 10px;
 }
 
+ul li a {
+	background: #383E4C none repeat scroll 0 0;
+	border: 1px solid #646d7c;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+
 /******И.Ф.О******/
-.container .jumbotronTwo{
-  float: left;
+
+.container .jumbotronTwo {
+	float: left;
 }
 
 
@@ -119,279 +140,319 @@ ul li a {
     margin: 5px 5px 5px 0;
     text-align: right;
 }*/
+
+
 /*------------------------------------------------------------------
   	[Social Icons]
 ------------------------------------------------------------------*/
+
 .social-icons {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  font-size: 16px;
-  color: #515769;
-  background: #fff;
-  text-align: center;
-  border-radius: 50%;
-  vertical-align: middle;
-border: white;
-  padding: 11px;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	color: #515769;
+	background: #fff;
+	text-align: center;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: white;
+	padding: 11px;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
 .social-icons:hover {
-  color: #fff;
-  background: #ef5612;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+	color: #fff;
+	background: #ef5612;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
+
 
 /*Сетка навыков*/
-#skills{
-    background-color: rgba(247, 247, 247, 0.99);
 
-}
-#skills{
-     margin-bottom: 10px;
-    margin-top: 10px;
-}
-.container#skills{
-
-     background-color: rgba(247, 247, 247, 0.99);
+#skills {
+	background-color: rgba(247, 247, 247, 0.99);
 }
 
+#skills {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
 
+.container#skills {
+	background-color: rgba(247, 247, 247, 0.99);
+}
 
 .category-tileSkills {
-    position: relative;
-    background-color: #ef5612;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 200px;
-  height: 300px;
-  margin: 0 auto 15px;
+	position: relative;
+	background-color: #ef5612;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 300px;
+	margin: 0 auto 15px;
 }
 
-#nameSkillsIcons{
-
-display: inline-block;
-width: 25px;
-  height: 25px;
-padding: 5px;
-  text-align: center;
-  border-radius: 50%;
-  background: green;
-  font-size: 15px;
-  color:  #fff;
-margin-left: 10px;
-margin-top: 255px;
- position: absolute;
-
+#nameSkillsIcons {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 50%;
+	background: green;
+	font-size: 15px;
+	color: #fff;
+	margin-left: 10px;
+	margin-top: 255px;
+	position: absolute;
 }
 
 .#nameSkillsIcons:hover {
-  color: #fff;
-  background: #ef5612;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+	color: #fff;
+	background: #ef5612;
+	transition-duration: 300ms;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-
-
 .category-tileSkills:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+	box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 #category-tileSkills + div {
-  margin-bottom: 50px;
+	margin-bottom: 50px;
 }
+
 
 /*Карусель*/
 
-.container#works{
-    background-color: rgba(247, 247, 247, 0.99);
-
-}
-#works{
-   margin-bottom: 10px;
-    margin-top: 10px;
-/*	padding-left: 30px;*/
+.container#works {
+	background-color: rgba(247, 247, 247, 0.99);
 }
 
-.category-tileWorks{
-  background-color: #ef5612;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 300px;
-  height: 450px;
+#works {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/*	padding-left: 30px;*/
+}
+
+.category-tileWorks {
+	background-color: #ef5612;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 300px;
+	height: 450px;
 	margin-left: 50px;
 }
+
+
 /****About me****/
+
+
 /***Contact form***/
 
 section#contact-area {
-  color: black;
-  background-image: url('../images/bg-3.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
+	color: black;
+	background-image: url('../images/bg-3.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
-.contact-form-left { padding-left: 0; }
-.contact-form-right { padding-right: 0; }
+
+.contact-form-left {
+	padding-left: 0;
+}
+
+.contact-form-right {
+	padding-right: 0;
+}
+
 input {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
+
 .form-control {
-  border: none;
-  background: rgba(132, 120, 120, 0.71);
+	border: none;
+	background: rgba(132, 120, 120, 0.71);
 }
+
 .form-group button {
-  background: #262628 none repeat scroll 0 0;
-  color: #fff;
-  margin-top: 20px;
-  padding: 10px 30px;
-  font-size: 18px;
-  border-radius:10px;
-  -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
+	background: #262628 none repeat scroll 0 0;
+	color: #fff;
+	margin-top: 20px;
+	padding: 10px 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
+
+
 /****Фото главное и И.Ф.О****/
+
+
 /*****Фото главное******/
+
+
 /********** Large devices only **********/
+
 @media (min-width: 1200px) {
-.container .jumbotronone{
-  float: right;
-    background: url('../images/11-2jpg.jpg') no-repeat;
-    width: 450px;
-    height: 340px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    right: 0;
-    margin-left: 50px;
+	.container .jumbotronone {
+		float: right;
+		background: url('../images/11-2jpg.jpg') no-repeat;
+		width: 450px;
+		height: 340px;
+		margin-bottom: 20px;
+		margin-top: 30px;
+		right: 0;
+		margin-left: 50px;
+	}
+	.image {
+		background-image: url('../images/bg-3.jpg');
+		height: 250px;
+		width: 300px;
+		margin: 0px;
+	}
+	.category-tileWorks {
+		padding: 0px;
+	}
 }
-}
+
+
 /********** Medium devices only **********/
+
 @media (min-width: 992px) and (max-width: 1199px) {
-    /* .item .col-md-12 {
+	/* .item .col-md-12 {
         margin-top: 50px;
         margin-left: 180px;
     }*/
-.category-tileWorks{
-  background-color: #ef5612;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 250px;
-  height: 400px;
-    }
-    .category-tileWorks img {
-        height: 200px;
-        width: 250px;
-    }
- .container .jumbotronone {
-    background: url('../images/11-3.jpg') no-repeat;
-    width: 400px;
-    height: 302px;
-    float: right;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-  .container .jumbotronTwo{
-  float: left;
+	.category-tileWorks {
+		background-color: #ef5612;
+		border: 2px solid #3F0C1F;
+		overflow: hidden;
+		width: 250px;
+		height: 400px;
+		padding: 0px;
+	}
+	.image {
+		background-image: url('../images/bg-3.jpg');
+		height: 200px;
+		width: 250px;
+		margin: 0px;
+	}
+	.container .jumbotronone {
+		background: url('../images/11-3.jpg') no-repeat;
+		width: 400px;
+		height: 302px;
+		float: right;
+		margin-bottom: 20px;
+		margin-top: 30px;
+	}
+	.container .jumbotronTwo {
+		float: left;
+	}
 }
 
-}
 @media (min-width: 768px) and (max-width: 991px) {
-   /* .item .col-sm-12 {
+	/* .item .col-sm-12 {
         margin-top: 50px;
         margin-left: 180px;
     }
 */
-.category-tileWorks{
-  background-color: #ef5612;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 200px;
-  height: 350px;
-    }
-    .category-tileWorks img {
-        height: 150px;
-        width: 200px;
-    }
- .container .jumbotronone {
-    background: url('../images/11-4.jpg') no-repeat;
-    width: 350px;
-    height: 264px;
-    float: right;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-  .container .jumbotronTwo{
-  float: left;
+	.category-tileWorks {
+		background-color: #ef5612;
+		border: 2px solid #3F0C1F;
+		overflow: hidden;
+		width: 200px;
+		height: 350px;
+		padding: 0px;
+	}
+	.image {
+		background-image: url('../images/bg-3.jpg');
+		height: 150px;
+		width: 200px;
+	}
+	.container .jumbotronone {
+		background: url('../images/11-4.jpg') no-repeat;
+		width: 350px;
+		height: 264px;
+		float: right;
+		margin-bottom: 20px;
+		margin-top: 30px;
+	}
+	.container .jumbotronTwo {
+		float: left;
+	}
 }
-}
+
+
 /********** Extra small devices only **********/
+
 @media (min-width: 100px) and (max-width: 767px) {
-
-
-    .category-tileWorks{
-  background-color: #ef5612;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 100px;
-  height: 150px;
-
-    }
-
-    .category-tileWorks img {
-        height: 50px;
-        width: 100px;
-    }
-
-.container .jumbotronone {
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-   .social-icons {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  font-size: 10px;
-  color: #515769;
-  background: #fff;
-  text-align: center;
-  border-radius: 50%;
-  vertical-align: middle;
-  border: white;
-  padding: 11px;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+	.category-tileWorks {
+		background-color: #ef5612;
+		border: 2px solid #3F0C1F;
+		overflow: hidden;
+		width: 100px;
+		height: 150px;
+		padding: 0px;
+	}
+	.category-tileWorks img {
+		height: 50px;
+		width: 100px;
+	}
+	.image {
+		background-image: url('../images/bg-3.jpg');
+		height: 50px;
+		width: 100px;
+		margin: 0px;
+	}
+	.container .jumbotronone {
+		margin-bottom: 20px;
+		margin-top: 30px;
+	}
+	.social-icons {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		font-size: 10px;
+		color: #515769;
+		background: #fff;
+		text-align: center;
+		border-radius: 50%;
+		vertical-align: middle;
+		border: white;
+		padding: 11px;
+		transition-duration: 300ms;
+		transition-property: all;
+		transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+	}
+	.jumbotronTwo {
+		width: 100%;
+	}
 }
-    .jumbotronTwo {
-        width: 100%;
-    }
-  }
+
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
 @media (max-width: 479px) {
-    .category-tileWorks{
-margin-left: 10px;
-  width: 70px;
-  height: 70px;
-
-    }
-
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
+	.category-tileWorks {
+		margin-left: 10px;
+		width: 70px;
+		height: 70px;
+		padding: 0px;
+	}
+	.col-xxs-12 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}
 }
-
-
-
