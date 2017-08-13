@@ -52,62 +52,52 @@ var data = [{
 	"id": 2
 	, "name": "F"
 }];
-
-var data1 =[
-		   {
-	"id": 3
-	, "name": "P"
+var data1 = [
+	{
+		"id": 3
+		, "name": "P"
 }, {
-	"id": 4
-	, "name": "E"
+		"id": 4
+		, "name": "E"
 }, {
-	"id": 5
-	, "name": "F"
+		"id": 5
+		, "name": "F"
 }]
-
-var data2 =[
-		   {
-	"id": 6
-	, "name": "P"
+var data2 = [
+	{
+		"id": 3
+		, "name": "P"
 }, {
-	"id": 7
-	, "name": "E"
+		"id": 4
+		, "name": "E"
 }, {
-	"id": 2
-	, "name": "F"
+		"id": 5
+		, "name": "F"
 }];
 
-function initCarusel(data , data1 , data2 ){
-
-	createItems(data);
-	createItems(data1);
-	createItems(data2);
-
+function initCarusel(data, data1, data2) {
+	createItems(data, true);
+	createItems(data1, false);
+	createItems(data2, false);
 }
 
- function createItems(data  ){
-	 var slideContainer = document.getElementById("slideContainer");
-
+function createItems(data, isActive) {
+	var slideContainer = document.getElementById("slideContainer");
 	var slide = document.createElement('div');
-	 slide.className="item";
-	for(var i = 0; i < data.length; i++){
+	if (isActive) {
+		slide.className = "item active";
+	}
+	else {
+		slide.className = "item";
+	}
+	for (var i = 0; i < data.length; i++) {
 		slide.appendChild(createItem(data[i]));
 	}
-
-	 slideContainer.appendChild(slide);
- }
-
-
+	slideContainer.appendChild(slide);
+}
 
 function createItem(person) {
-
-	var item = document.createElement('div');
-
-	var text = "<b>ID:</b> " + person.id + "<br>";
-	text = text + "<b>Name:</b> " + person.name;
-	item.innerHTML = text;
-	return item;
-	/*var listButton = document.createElement('button');
+	var listButton = document.createElement('div');
 	listButton.className = "category-tileWorks col-lg-4 col-md-4 col-sm-4 col-xs-4 col-xxs-4";
 	var text = "<b>ID:</b> " + person.id + "<br>";
 	text = text + "<b>Name:</b> " + person.name;
@@ -127,16 +117,7 @@ function createItem(person) {
 	}, false);
 	listButton.addEventListener("mouseout", function () {
 		button.style.display = "none";
-	}, false);*/
-/*
-	var item= document.createElement("div");
-	item.style.background = "#FF00000";
-	item.style.width = 100;
-	item.style.height = 100;
-	slide.appendChild(item);*/
-
-
+	}, false);
+	return listButton;
 }
-
-
 initCarusel(data, data1, data2);
