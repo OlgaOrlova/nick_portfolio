@@ -41,6 +41,8 @@ $(function () {
 		}, 800);
 	});
 });
+
+(function (window) {
 /*Карусель*/
 var data = [{
 	"id": 0
@@ -109,9 +111,7 @@ function createItem(person) {
 	button.className = "listButto";
 	button.style.display = "none";
 	listButton.appendChild(button);
-	button.addEventListener("click", function () {
-		window.open("https://www.w3schools.com");
-	}, false);
+	button.addEventListener("click", fgh, false);
 	listButton.addEventListener("mouseover", function () {
 		button.style.display = "inline-block";
 	}, false);
@@ -121,3 +121,40 @@ function createItem(person) {
 	return listButton;
 }
 initCarusel(data, data1, data2);
+var datawork = [{
+	"title": "Cinamaker"
+	, "texts": "Я живу в Харькове"
+}, {
+	"title": "Irny"
+	, "texts": "Я жиыу в Украине"
+}];
+//	datawork.forEach(function(person){
+//		div.appendChild(person);
+//	})
+//}
+
+function b(datawork) {
+		var mainContainer = document.getElementById("mainContainer");
+
+	for (var i = 0; i < datawork.length; i++) {
+		mainContainer.appendChild(init(datawork[i]));// ты же в функции init ничего не возвразаешь
+	}
+
+}
+
+b(datawork);
+
+function init(person) {
+var divone = document.createElement("div");
+	var text = person.title + "<br>";
+	text = text + person.texts;
+	divone.innerHTML = text;
+
+	return divone;
+}
+	 window.data = data;
+ window.data2 = data2;
+ window.data1 = data1 ;
+
+
+})(window);
