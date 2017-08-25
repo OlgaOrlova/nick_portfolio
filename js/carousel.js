@@ -3,35 +3,7 @@
 //  */
 // var displayItems = 3;
 // var lastPos = 0;
-var itemsText = [
-    {
-        "id": 0
-        , "name": "P"
-    }, {
-        "id": 1
-        , "name": "E"
-    }, {
-        "id": 2
-        , "name": "F"
-    }, {
-        "id": 3
-        , "name": "P"
-    }, {
-        "id": 4
-        , "name": "E"
-    }, {
-        "id": 5
-        , "name": "F"
-    }, {
-        "id": 6
-        , "name": "P"
-    }, {
-        "id": 7
-        , "name": "E"
-    }, {
-        "id": 8
-        , "name": "F"
-    }];
+
 
 var currentIndex = 3;
 var mainContainer = document.getElementById("mainContainer");
@@ -54,7 +26,7 @@ function createItem(person) {
     button.style.display = "none";
     listButton.appendChild(button);
     button.addEventListener("click", function () {
-        window.open("https://www.w3schools.com");
+        window.open("works.html?id=" + person.id);
     }, false);
     listButton.addEventListener("mouseover", function () {
         button.style.display = "inline-block";
