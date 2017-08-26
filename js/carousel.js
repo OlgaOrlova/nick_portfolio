@@ -51,7 +51,7 @@ function removeLast(array) {
 
 function next() {
     var index = nextIndex();
-    add(blocksArray, projects[index]);
+    add(blocksArray, projects.projects[index]);
     remove(blocksArray);
     displayElements(blocksArray);
 }
@@ -68,7 +68,7 @@ function back() {
 
     if (index >= 0) {
         removeLast(blocksArray);
-        addToHead(projects[index]);
+        addToHead(projects.projects[index]);
         displayElements(blocksArray);
     }
 }
@@ -83,7 +83,7 @@ function displayElements(dataElemtnts) {
 }
 
 function nextIndex() {
-    if (currentIndex > projects.length - 1) {
+    if (currentIndex > projects.projects.length - 1) {
         return currentIndex;
     }
 
