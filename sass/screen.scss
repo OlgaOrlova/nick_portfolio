@@ -48,24 +48,17 @@ h4#work {
 
 /*Вторая секция*/
 
-#menu-categoriesnamesOfAll-title {
+.menu-categoriesnamesOfAll-title {
 	font-family: $font-stack;
 	font-size: $headline-fonts;
 	margin-top: $indenting-headers;
+	margin-bottom: $indenting-headers;
 	color: $font-colorheaders;
-	font-family: 'Merriweather', serif;
+
 }
 
 
-/*Третья секция "Навыки"*/
 
-p#nameSkills {
-	margin-top: 5px;
-	margin-left: 10px;
-	color: $font-colorofmaintext;
-	font-size: 15px;
-	font-family: 'Merriweather', serif;
-}
 
 
 /*Последняя секция контактов*/

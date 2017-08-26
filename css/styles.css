@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 #b:hover {
 	width: 20px;
 	height: 20px;
@@ -194,58 +197,20 @@ ul li a {
 
 /*Сетка навыков*/
 
-#skills {
-	background-color: rgba(247, 247, 247, 0.99);
-}
-
-#skills {
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-
-.container#skills {
-	background-color: rgba(247, 247, 247, 0.99);
-}
-
 .category-tileSkills {
-	position: relative;
-	background-color: #ef5612;
-	border: 2px solid #3F0C1F;
-	overflow: hidden;
-	width: 200px;
-	height: 300px;
-	margin: 0 auto 15px;
-}
-
-#nameSkillsIcons {
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	padding: 5px;
-	text-align: center;
-	border-radius: 50%;
-	background: green;
-	font-size: 15px;
-	color: #fff;
-	margin-left: 10px;
-	margin-top: 255px;
-	position: absolute;
-}
-
-.#nameSkillsIcons:hover {
-	color: #fff;
-	background: #ef5612;
-	transition-duration: 300ms;
-	transition-property: all;
-	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.category-tileSkills:hover {
-	box-shadow: 0 1px 5px 1px #cccccc;
-}
-
-#category-tileSkills + div {
+	width: 290px;
+	height: 405px;
 	margin-bottom: 50px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+}
+
+.card-body {
+	width: 290px;
+	height: 211px;
+	flex: 1 1 auto;
+
+
+
 }
 
 
