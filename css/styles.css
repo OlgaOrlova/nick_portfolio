@@ -194,10 +194,9 @@ ul li a {
 	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+/*Сетка проектов*/
 
-/*Сетка навыков*/
-
-.category-tileSkills {
+.category-tile-project {
 	width: 290px;
 	height: 405px;
 	margin-bottom: 50px;

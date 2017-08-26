@@ -51,7 +51,7 @@ function removeLast(array) {
 
 function next() {
     var index = nextIndex();
-    add(blocksArray, itemsText[index]);
+    add(blocksArray, projects[index]);
     remove(blocksArray);
     displayElements(blocksArray);
 }
@@ -68,7 +68,7 @@ function back() {
 
     if (index >= 0) {
         removeLast(blocksArray);
-        addToHead(itemsText[index]);
+        addToHead(projects[index]);
         displayElements(blocksArray);
     }
 }
@@ -83,7 +83,7 @@ function displayElements(dataElemtnts) {
 }
 
 function nextIndex() {
-    if (currentIndex > itemsText.length - 1) {
+    if (currentIndex > projects.length - 1) {
         return currentIndex;
     }
 
@@ -96,8 +96,9 @@ function prevIndex() {
     return currentIndex--;
 }
 function init() {
+    var projArr = projects.projects;
     for (var i = 0; i < 3; i++) {
-        add(blocksArray, itemsText[i])
+        add(blocksArray, projArr[i])
     }
 }
 init();
