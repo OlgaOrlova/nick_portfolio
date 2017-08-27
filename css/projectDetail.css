@@ -1,0 +1,25 @@
+
+#mainContent {
+    padding-top: 15px;
+    background-color: #2aabd2;
+    padding-left: 20%;
+}
+
+.imgProjectDetail {
+    padding-right: 20px;
+    float: left;
+}
+
+.title {
+    text-align: center;
+}
+
+.projectCardsBody {
+    font-family: 'Merriweather', serif;
+    text-align: justify;
+    width: 400px;
+    float: left;
+
+}
+
+

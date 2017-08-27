@@ -5,20 +5,23 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="mui/css/mui.min.css">
+    <link rel="stylesheet" href="css/projectDetail.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto" rel="stylesheet">
 </head>
 <body>
-<div id="mainContent"></div>
+<div class="container" id="mainContent"></div>
 
 <script id="projectTemplate" type="text/x-handlebars-template">
-    <div class="category-tile-project">
-        <img class="imgProject" width="290" height="194" src="{{preview_img}}"
-             alt="Java ">
-        <div class="card-body"><h4 class="card-title">{{name}}</h4>
-            <p class="card-text">{{description}}</p>
 
-        </div>
+    <img class="imgProjectDetail" width="350" height="250" src="{{preview_img}}"
+         alt="Java ">
+    <div class="projectCardsBody"><h4 class="title">{{name}}</h4>
+        <p class="projectCardText">{{description}}</p>
     </div>
+
+
 </script>
 <script src="js/handlebars-v4.0.10.js"></script>
 <script src="js/data.js"></script>
