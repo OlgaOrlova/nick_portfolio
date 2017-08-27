@@ -8,5 +8,8 @@ $(document).ready(function () {
             element = item;
         }
     });
-    alert(element.id + " " + element.name);
+    var templateSnippet = $('#projectTemplate').html();
+    var template = Handlebars.compile(templateSnippet);
+    $('#mainContent').append(template(element));
+
 });

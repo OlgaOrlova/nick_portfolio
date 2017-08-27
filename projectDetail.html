@@ -8,8 +8,19 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<div id="mainContent"></div>
 
+<script id="projectTemplate" type="text/x-handlebars-template">
+    <div class="category-tile-project">
+        <img class="imgProject" width="290" height="194" src="{{preview_img}}"
+             alt="Java ">
+        <div class="card-body"><h4 class="card-title">{{name}}</h4>
+            <p class="card-text">{{description}}</p>
 
+        </div>
+    </div>
+</script>
+<script src="js/handlebars-v4.0.10.js"></script>
 <script src="js/data.js"></script>
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/projectDetail.js"></script>
