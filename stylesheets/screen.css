@@ -157,13 +157,33 @@ h4#work {
 /********** Extra small devices only **********/
 @media (min-width: 100px) and (max-width: 767px) {
   /* line 117, ../sass/screen.scss */
+  .category-tile-project {
+    width: 510px;
+    height: 530px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+  }
+
+  /* line 125, ../sass/screen.scss */
+  .card-body {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  /* line 129, ../sass/screen.scss */
+  .imgProject {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  /* line 133, ../sass/screen.scss */
   h1#name {
     color: #49505F;
     font-size: 35px;
     text-transform: uppercase;
   }
 
-  /* line 122, ../sass/screen.scss */
+  /* line 138, ../sass/screen.scss */
   h4#work {
     text-align: center;
     color: #49505F;

@@ -114,6 +114,22 @@ h4#work {
 /********** Extra small devices only **********/
 
 @media (min-width: 100px) and (max-width: 767px) {
+  .category-tile-project {
+
+    width: 510px;
+    height: 530px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+  }
+
+  .card-body {
+    width: 80vw;
+    height: 80vw;
+  }
+  .imgProject {
+    width: 80vw;
+    height: 80vw;
+  }
 	h1#name {
 		color: $font-colormainheader;
 		font-size: 35px;
