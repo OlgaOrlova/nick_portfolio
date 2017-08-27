@@ -83,7 +83,9 @@
 		<h2 id="menu-categoriesnamesOfAll-title" class="text-left">My work</h2>
 		<div class="container">
 			<section class="row" id="works">
-				<div class="container" id="mainContainer"></div>
+				<div class="container" id="mainContainer">
+
+				</div>
 				<button id="buttTwo">Prev</button>
 				<button id="buttOne" >Next</button>
 			</section>
@@ -146,7 +148,9 @@
 													alt="Java ">
 				<div class="card-body"><h4 class="card-title">{{name}}</h4>
 					<p class="card-text">{{description}}</p>
-					<button class="mui-btn mui-btn--primary">Button</button>
+					<button class="mui-btn mui-btn--primary projectItemButton" onclick="$().onItemClicked({{id}})">
+						Button
+					</button>
 				</div>
 			</div>
 
