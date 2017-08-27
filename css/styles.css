@@ -204,14 +204,24 @@ ul li a {
 }
 
 .card-body {
+
 	width: 290px;
 	height: 211px;
 	flex: 1 1 auto;
-
-
+    padding: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
 
 }
 
+.card-title {
+    color: #0f0f0f;
+    padding-bottom: 10px;
+}
+
+.card-text {
+    color: #49505F;
+    padding-bottom: 10px;
+}
 
 /*Карусель*/
 

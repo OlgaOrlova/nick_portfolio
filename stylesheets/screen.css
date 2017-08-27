@@ -101,8 +101,13 @@ h4#work {
 }
 
 /*╨Я╨╛╤Б╨╗╨╡╨┤╨╜╤П╤П ╤Б╨╡╨║╤Ж╨╕╤П ╨║╨╛╨╜╤В╨░╨║╤В╨╛╨▓*/
+/* line 66, ../sass/screen.scss */
+.card-title {
+  font-family: "Merriweather", serif;
+}
+
 /***Contact form***/
-/* line 69, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .contact-content h1 {
   color: black;
   text-transform: capitalize;
@@ -110,7 +115,7 @@ h4#work {
   font-size: 30px;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .contact-content p {
   background: rgba(132, 120, 120, 0.71) none repeat scroll 0 0;
   border-radius: 5px;
@@ -121,14 +126,14 @@ h4#work {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 86, ../sass/screen.scss */
+  /* line 89, ../sass/screen.scss */
   h1#name {
     color: #49505F;
     font-size: 45px;
     text-transform: uppercase;
   }
 
-  /* line 91, ../sass/screen.scss */
+  /* line 94, ../sass/screen.scss */
   h4#work {
     color: #49505F;
     font-size: 40px;
@@ -136,14 +141,14 @@ h4#work {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 99, ../sass/screen.scss */
+  /* line 102, ../sass/screen.scss */
   h1#name {
     color: #49505F;
     font-size: 40px;
     text-transform: uppercase;
   }
 
-  /* line 104, ../sass/screen.scss */
+  /* line 107, ../sass/screen.scss */
   h4#work {
     color: #49505F;
     font-size: 30px;
@@ -151,14 +156,14 @@ h4#work {
 }
 /********** Extra small devices only **********/
 @media (min-width: 100px) and (max-width: 767px) {
-  /* line 114, ../sass/screen.scss */
+  /* line 117, ../sass/screen.scss */
   h1#name {
     color: #49505F;
     font-size: 35px;
     text-transform: uppercase;
   }
 
-  /* line 119, ../sass/screen.scss */
+  /* line 122, ../sass/screen.scss */
   h4#work {
     text-align: center;
     color: #49505F;
