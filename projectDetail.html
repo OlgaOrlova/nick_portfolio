@@ -11,17 +11,45 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto" rel="stylesheet">
 </head>
 <body>
-<div class="container" id="mainContent"></div>
+<header>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+            <div class="row">
+                <h1 id="headerName">Protect detail</h1>
+            </div>
+        </div>
+
+    </nav>
+</header>
+<div class="container" id="mainContent">
+    <div class="row">
+        <section id="section1"></section>
+        <section id="section2"></section>
+        <section id="section3"></section>
+    </div>
+</div>
 
 <script id="projectTemplate" type="text/x-handlebars-template">
 
-    <img class="imgProjectDetail" width="350" height="250" src="{{preview_img}}"
+    <img class="imgProjectDetail" width="400" height="300" src="{{preview_img}}"
          alt="Java ">
-    <div class="projectCardsBody"><h4 class="title">{{name}}</h4>
+    <div class="projectCardsBody"><h3 class="title">{{name}}</h3>
         <p class="projectCardText">{{description}}</p>
     </div>
 
 
+</script>
+<script id="projectTemplateSkills" type="text/x-handlebars-template">
+    {{#each skills}}
+    <div class="ovalBody col-lg-12 col-md-12 col-sm-12 col-xs-12"><p class="ovalBodyName">{{name}}</p></div>
+    {{/each}}
+</script>
+
+
+<script id="projectTemplateSkillsPic" type="text/x-handlebars-template">
+    {{#each picture}}
+    <img src="{{skill_img}}" height="300" class="image col-lg-6 col-md-6 col-sm-6" alt="picture">
+    {{/each}}
 </script>
 <script src="js/handlebars-v4.0.10.js"></script>
 <script src="js/data.js"></script>

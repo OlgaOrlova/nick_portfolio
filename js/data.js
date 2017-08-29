@@ -45,13 +45,16 @@ var projects = {
     ]
 };
 
-var skills = [
+var skills = {
+    "skills": [
     {
         "id": 0,
-        "name": "Skill0"
+        "name": "Skill0",
+        "skill_img": "images/skills/image2.jpg"
     }, {
         "id": 1,
-        "name": "Skill1"
+            "name": "Skill1",
+            "skill_img": "images/skills/image3.jpg"
     }, {
         "id": 2,
         "name": "Skill2"
@@ -68,4 +71,22 @@ var skills = [
         "id": 6,
         "name": "Skill6"
     },
-];
+    ]
+};
+var picture = {
+    "picture": [
+        {
+            "id": 0,
+            "skill_img": "images/picture/picture1.png"
+        }, {
+            "id": 1,
+            "skill_img": "images/picture/picture2.png"
+        }, {
+            "id": 0,
+            "skill_img": "images/picture/picture3.png"
+        },
+        {
+            "id": 0,
+            "skill_img": "images/picture/picture4.png"
+        },]
+};
