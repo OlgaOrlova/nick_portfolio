@@ -15,6 +15,7 @@
 
 }
 
+
 /*END HEADER*/
 
 #mainContent {
@@ -24,7 +25,7 @@
 
 }
 
-/*START FIRST SECTION*/
+/*START FIRST SECTION  background-color: rgba(247, 247, 247, 0.99);*/
 
 #section1 {
     padding: 30px;
@@ -89,14 +90,18 @@
 /*END SECOND SECTION*/
 
 /*START SECTION Pik 3*/
-
 #section3 {
-    width: 900px;
-    height: 600px;
-    background-color: rgba(247, 247, 247, 0.99);;
-    margin: auto;
     padding-left: 15px;
+    margin: auto;
+    height: 650px;
+    width: 900px;
+    background-color: rgba(247, 247, 247, 0.99);
 
+}
+
+.imageBlock {
+    padding: 0px;
+    background-color: rgba(247, 247, 247, 0.99);
 }
 
 body {
@@ -108,7 +113,6 @@ body {
     padding-bottom: 35px;
     width: 435px;
     cursor: pointer;
-
 }
 
 .popup {
@@ -118,6 +122,7 @@ body {
     top: 0;
     left: 0;
     display: none;
+    background-color: red;
     text-align: center;
 }
 
@@ -139,3 +144,285 @@ body {
 }
 
 /*END SECTION Pik3*/
+
+/*Adaptation for all screens*/
+
+/* START "col-sm" small small screens*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #headerName {
+        font-size: 6vw;
+    }
+
+    /*first section*/
+    .imgProjectDetail {
+        padding-right: 20px;
+        float: left;
+        width: 350px;
+        height: 250px;
+
+    }
+
+    #section1 {
+        padding: 30px;
+        height: 350px;
+        width: 700px;
+        background-color: rgba(247, 247, 247, 0.99);
+        margin: auto;
+
+    }
+
+    .projectCardsBody {
+        font-family: 'Merriweather', serif;
+        text-align: justify;
+        width: 250px;
+        float: left;
+        color: #49505F;
+        font-size: 15px;
+
+    }
+
+    /*section 2*/
+    #section2 {
+        padding: 20px;
+        margin: auto;
+        height: 150px;
+        width: 700px;;
+        background-color: rgba(247, 247, 247, 0.99);
+
+    }
+
+    .ovalBody {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*Section 3*/
+    #section3 {
+
+        padding: 0px;
+        height: 700px;
+        width: 700px;;
+        background-color: rgba(247, 247, 247, 0.99);
+
+    }
+
+    .image {
+        width: 300px;
+        height: 250px;
+    }
+
+    .imageBlock {
+        text-align: center;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .popup_img {
+        position: relative;
+        margin: 0 auto;
+        z-index: 100;
+        max-height: 50%;
+        max-width: 50%;
+        margin: 80% 0% 0% 0%;
+    }
+}
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    #headerName {
+        font-size: 7vw;;
+    }
+
+    /*first section*/
+    .imgProjectDetail {
+        padding-right: 20px;
+        float: left;
+        width: 250px;
+        height: 150px;
+    }
+
+    #section1 {
+        padding: 30px;
+        height: 280px;
+        width: 550px;
+        background-color: rgba(247, 247, 247, 0.99);
+        margin: auto;
+
+    }
+
+    .projectCardsBody {
+        font-family: 'Merriweather', serif;
+        text-align: justify;
+        width: 30vw;
+        float: left;
+        color: #49505F;
+        font-size: 15px;
+
+    }
+
+    /*section 2*/
+    #section2 {
+        height: 150px;
+        width: 550px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .ovalBody {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*section 3*/
+    #section3 {
+        padding: 0px;
+        height: 150px;
+        width: 550px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .image {
+        width: 300px;
+        height: 250px;
+    }
+
+    .imageBlock {
+        text-align: center;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .popup_img {
+        position: relative;
+        margin: 0 auto;
+        z-index: 100;
+        max-height: 50%;
+        max-width: 50%;
+        margin: 80% 0% 0% 0%;
+    }
+}
+
+@media (max-width: 661px) {
+    #section1 {
+        padding: 30px;
+        height: 300px;
+        width: 450px;
+        background-color: rgba(247, 247, 247, 0.99);
+        margin: auto;
+
+    }
+
+    .imgProjectDetail {
+        padding-right: 20px;
+        float: left;
+        width: 150px;
+        height: 100px;
+    }
+
+    .projectCardsBody {
+        width: 200px;
+        font-size: 15px;
+
+    }
+
+    /*section 2*/
+    #section2 {
+        height: 250px;
+        width: 450px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .ovalBody {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*section 3*/
+    #section3 {
+        padding: 0px;
+        height: 250px;
+        width: 450px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .image {
+        width: 300px;
+        height: 250px;
+    }
+
+    .imageBlock {
+        text-align: center;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .popup_img {
+        position: relative;
+        margin: 0 auto;
+        z-index: 100;
+        max-height: 50%;
+        max-width: 50%;
+        margin: 100% 0% 0% 0%;
+    }
+}
+
+@media (max-width: 530px) {
+
+    #section1 {
+
+        padding: 0;
+        height: 350px;
+        width: 300px;
+    }
+
+    .imgProjectDetail {
+
+        margin-left: 30%;
+        width: 150px;
+        height: 100px;
+    }
+
+    .projectCardsBody {
+        width: 200px;
+        font-size: 15px;
+        margin-left: 20%;
+    }
+
+    /*section 2*/
+    #section2 {
+        height: 300px;
+        width: 300px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .ovalBody {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*section 3*/
+    #section3 {
+        padding: 15px;
+        height: 1200px;
+        width: 300px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .image {
+        width: 270px;
+        height: 250px;
+    }
+
+    .imageBlock {
+        text-align: center;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .popup_img {
+        position: relative;
+        margin: 0 auto;
+        z-index: 100;
+        max-height: 50%;
+        max-width: 50%;
+        margin: 200% 0% 0% 0%;
+    }
+}
+
+/* END "col-sm" small small screens*/

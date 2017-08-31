@@ -95,7 +95,32 @@
 	<!--Раздел "Обо мне"-->
 	<div class="prommain" id="aboutme">
 		<h2 class="text-left menu-categoriesnamesOfAll-title">About me</h2>
-		<div class="container" id="imageAboutme"> <img width="1195" height="540" src="images/services-bg.jpg" alt="sorry" id="d"> </div>
+		<div class="container" id="imageAboutme">
+
+			<img width="1195" height="540" src="images/services-bg.jpg" class="infoAboutMe mainDisplyPic" alt="sorry">
+			<h3 class=" infoAboutMe nameAbounme">About...</h3>
+			<div class="infoAboutMe formAboutme">
+				<ol class="list">
+
+					<li>Q</li>
+					<hr>
+					<li>F</li>
+					<hr>
+					<li>v</li>
+					<hr>
+					<li>b</li>
+					<hr>
+					<li>A</li>
+					<hr>
+				</ol>
+			</div>
+
+
+		</div>
+
+		<!--<img src="aimges/fox.jpg" alt="3" class="card three">-->
+		<!--<img src="images/11-4.jpg" alt="7" class="card seven">-->
+		<!--<img src="images/fox.jpg" alt="Туз" class="card ace">-->
 	</div>
 	<!--Конец раздела "Обо мне"-->
 
@@ -142,9 +167,10 @@
 
 	<script id="template" type="text/x-handlebars-template">
 		{{#each projects}}
-		<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
+		<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12 h">
 
-			<div class="category-tile-project"><img class="imgProject" width="290" height="194" src="{{preview_img}}"
+			<div class="category-tile-project"><img class="imgProject" id="s" width="290" height="194"
+													src="{{preview_img}}"
 													alt="Java ">
 				<div class="card-body"><h4 class="card-title">{{name}}</h4>
 					<p class="card-text">{{description}}</p>

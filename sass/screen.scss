@@ -19,7 +19,7 @@ $font-colorofmaintext: black;
 
 /*Отступы заголовков*/
 
-$indenting-headers:10px;
+$indenting-headers: 15px;
 
 /*Размер шрифтов заголовков*/
 
@@ -53,6 +53,7 @@ h4#work {
 	font-size: $headline-fonts;
 	margin-top: $indenting-headers;
 	margin-bottom: $indenting-headers;
+	padding-top: $indenting-headers;
 	color: $font-colorheaders;
 
 }
@@ -129,6 +130,7 @@ h4#work {
   .imgProject {
     width: 80vw;
     height: 80vw;
+
   }
 	h1#name {
 		color: $font-colormainheader;

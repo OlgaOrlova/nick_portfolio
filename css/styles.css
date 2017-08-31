@@ -1,12 +1,11 @@
 * {
 	box-sizing: border-box;
 }
-#b:hover {
-	width: 20px;
-	height: 20px;
-	background-color: black;
-	margin-right: 20px;
-}
+
+/*.ace {*/
+/*left: -295px; z-index: 1;*/
+/*}*/
+
 
 #toTop {
 	height: 100%;
@@ -201,6 +200,7 @@ ul li a {
 	height: 405px;
 	margin-bottom: 50px;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+
 }
 
 .card-body {
@@ -246,7 +246,46 @@ ul li a {
 
 
 /****About me****/
+.infoAboutMe {
+	position: relative;
+}
 
+.mainDisplyPic {
+	z-index: 1;
+}
+
+.formAboutme {
+	bottom: 500px;
+	z-index: 2;
+	box-shadow: 5px 5px 0px rgba(255, 80, 38, 0.37);
+	width: 350px;
+	height: 300px;
+	border-radius: 3%;
+	border: 2px outset #ff5026;
+}
+
+.nameAbounme {
+	width: 350px;
+	z-index: 2;
+	color: #49505F;
+	bottom: 510px;
+	font-family: 'Merriweather', serif;
+	font-size: 25px;
+}
+
+.list {
+	color: black;
+	position: absolute;
+	margin: 20px;
+	padding-bottom: 2px;
+}
+
+hr {
+	margin-top: 0px;
+	width: 300px;
+}
+
+/*END ABOUT ME*/
 
 /***Contact form***/
 

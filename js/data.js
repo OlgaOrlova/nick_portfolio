@@ -49,12 +49,12 @@ var skills = {
     "skills": [
     {
         "id": 0,
-        "name": "Skill0",
-        "skill_img": "images/skills/image2.jpg"
+        "name": "Skill0"
+
     }, {
         "id": 1,
-            "name": "Skill1",
-            "skill_img": "images/skills/image3.jpg"
+            "name": "Skill1"
+
     }, {
         "id": 2,
         "name": "Skill2"
