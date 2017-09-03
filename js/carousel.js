@@ -96,7 +96,7 @@ function prevIndex() {
     return currentIndex--;
 }
 function init() {
-    var projArr = projects.projects;
+    var projArr = skills.skills;
     for (var i = 0; i < 3; i++) {
         add(blocksArray, projArr[i])
     }

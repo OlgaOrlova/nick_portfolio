@@ -19,10 +19,8 @@ $(document).ready(function () {
     console.log(skillIds);
     var ourSkills = [];
     skills.skills.forEach(function (item) {
-
-        if ($("skillIds:contains(item.id)")) {
+        if (skillIds.includes(item.id)) {
             ourSkills.push(item);
-
         }
     });
     var skillsContainer = {"skills": ourSkills};
