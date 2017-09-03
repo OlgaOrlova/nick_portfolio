@@ -8,15 +8,12 @@ var projects = {
             "skill_ids": [0, 1, 2],
             "pictures": [
                 {
-                    "skill_img": "images/picture/picture1.png"
+                    "skill_img": "images/picture/ddp1.png"
                 }, {
-                    "skill_img": "images/picture/picture2.png"
+                    "skill_img": "images/picture/ddp2.png"
                 }, {
-                    "skill_img": "images/picture/picture3.png"
-                },
-                {
-                    "skill_img": "images/picture/picture4.png"
-                },]
+                    "skill_img": "images/picture/ddp3.png"
+                }]
         },
         {
             "id": 1,
@@ -26,15 +23,10 @@ var projects = {
             "skill_ids": [0, 1, 3, 4, 5, 6, 7],
             "pictures": [
                 {
-                    "skill_img": "images/picture/picture1.png"
+                    "skill_img": "images/picture/cm1.png"
                 }, {
-                    "skill_img": "images/picture/picture2.png"
-                }, {
-                    "skill_img": "images/picture/picture3.png"
-                },
-                {
-                    "skill_img": "images/picture/picture4.png"
-                },]
+                    "skill_img": "images/picture/cm2.png"
+                }]
         },
         {
             "id": 2,
@@ -44,15 +36,12 @@ var projects = {
             "skill_ids": [],
             "pictures": [
                 {
-                    "skill_img": "images/picture/picture1.png"
+                    "skill_img": "images/picture/famous1.png"
                 }, {
-                    "skill_img": "images/picture/picture2.png"
+                    "skill_img": "images/picture/famous2.png"
                 }, {
-                    "skill_img": "images/picture/picture3.png"
-                },
-                {
-                    "skill_img": "images/picture/picture4.png"
-                },]
+                    "skill_img": "images/picture/famous3.png"
+                }]
         },
         {
             "id": 3,
@@ -62,14 +51,18 @@ var projects = {
             "skill_ids": [3, 8, 9],
             "pictures": [
                 {
-                    "skill_img": "images/picture/picture1.png"
+                    "skill_img": "images/picture/card1.png"
                 }, {
-                    "skill_img": "images/picture/picture2.png"
+                    "skill_img": "images/picture/card2.png"
                 }, {
-                    "skill_img": "images/picture/picture3.png"
+                    "skill_img": "images/picture/card3.png"
                 },
                 {
-                    "skill_img": "images/picture/picture4.png"
+                    "skill_img": "images/picture/card4.png"
+                }, {
+                    "skill_img": "images/picture/card5.png"
+                }, {
+                    "skill_img": "images/picture/card6.png"
                 },]
         },
         {
@@ -80,15 +73,12 @@ var projects = {
             "skill_ids": [2, 10, 11, 12],
             "pictures": [
                 {
-                    "skill_img": "images/picture/picture1.png"
+                    "skill_img": "images/picture/earnie1.png"
                 }, {
-                    "skill_img": "images/picture/picture2.png"
+                    "skill_img": "images/picture/earnie2.png"
                 }, {
-                    "skill_img": "images/picture/picture3.png"
-                },
-                {
-                    "skill_img": "images/picture/picture4.png"
-                },]
+                    "skill_img": "images/picture/earnie3.png"
+                }]
         },
         {
             "id": 5,
@@ -98,15 +88,12 @@ var projects = {
             "skill_ids": [13, 14],
             "pictures": [
                 {
-                    "skill_img": "images/picture/picture1.png"
+                    "skill_img": "images/picture/music1.png"
                 }, {
-                    "skill_img": "images/picture/picture2.png"
+                    "skill_img": "images/picture/music2.png"
                 }, {
-                    "skill_img": "images/picture/picture3.png"
-                },
-                {
-                    "skill_img": "images/picture/picture4.png"
-                },]
+                    "skill_img": "images/picture/music3.png"
+                }]
         },
         {
             "id": 6,
@@ -116,15 +103,12 @@ var projects = {
             "skill_ids": [15, 16, 17],
             "pictures": [
                 {
-                    "skill_img": "images/picture/picture1.png"
+                    "skill_img": "images/picture/pureshka1.png"
                 }, {
-                    "skill_img": "images/picture/picture2.png"
+                    "skill_img": "images/picture/pureshka2.png"
                 }, {
-                    "skill_img": "images/picture/picture3.png"
-                },
-                {
-                    "skill_img": "images/picture/picture4.png"
-                },]
+                    "skill_img": "images/picture/pureshka3.png"
+                }]
         },
         {
             "id": 7,
@@ -134,33 +118,12 @@ var projects = {
             "skill_ids": [8, 18, 19, 20, 21],
             "pictures": [
                 {
-                    "skill_img": "images/picture/picture1.png"
+                    "skill_img": "images/picture/fr1.png"
                 }, {
-                    "skill_img": "images/picture/picture2.png"
+                    "skill_img": "images/picture/fr2.png"
                 }, {
-                    "skill_img": "images/picture/picture3.png"
-                },
-                {
-                    "skill_img": "images/picture/picture4.png"
-                },]
-        },
-        {
-            "id": 8,
-            "name": "Football Quiz",
-            "preview_img": "images/project_previews/pr6.png",
-            "description": "My first application=)",
-            "skill_ids": [],
-            "pictures": [
-                {
-                    "skill_img": "images/picture/picture1.png"
-                }, {
-                    "skill_img": "images/picture/picture2.png"
-                }, {
-                    "skill_img": "images/picture/picture3.png"
-                },
-                {
-                    "skill_img": "images/picture/picture4.png"
-                },]
+                    "skill_img": "images/picture/fr3.png"
+                }]
         }
     ]
 };
