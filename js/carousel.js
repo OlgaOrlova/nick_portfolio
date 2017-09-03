@@ -16,13 +16,9 @@ function createItem(person) {
     var text = "<b>ID:</b> " + person.id + "<br>";
     text = text + "<b>Name:</b> " + person.name;
     listButton.innerHTML = text;
-    var image = document.createElement('img');
-    image.className = "image";
-    image.src = "holder.js/300x250/sky";
 
-    listButton.appendChild(image);
     var button = document.createElement('button');
-    button.className = "listButto";
+    button.className = "listButto mui-btn mui-btn--raised mui-btn--danger ";
     button.style.display = "none";
     listButton.appendChild(button);
     button.addEventListener("click", function () {
@@ -34,6 +30,13 @@ function createItem(person) {
     listButton.addEventListener("mouseout", function () {
         button.style.display = "none";
     }, false);
+
+
+    var image = document.createElement('img');
+    image.className = "image";
+    image.src = person.image_path;
+
+    listButton.appendChild(image);
     return listButton;
 }
 
@@ -55,7 +58,7 @@ function next() {
     remove(blocksArray);
     displayElements(blocksArray);
 }
-document.getElementById('buttOne').onclick = next; 
+document.getElementById('buttOne').onclick = next;
 
 function addToHead(dataItem) {
     var block3 = createItem(dataItem);

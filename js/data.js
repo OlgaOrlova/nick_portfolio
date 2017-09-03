@@ -130,74 +130,116 @@ var projects = {
 
 var skills = {
     "skills": [
-    {
-        "id": 0,
-        "name": "wifiDirect"
-
-    }, {
-        "id": 1,
+        {
+            "id": 0,
+            "name": "wifiDirect",
+            "image_path": "images/picture/pureshka1.png"
+        }, {
+            "id": 1,
             "name": "Opengl ES"
+            , "image_path": "images/picture/pureshka1.png"
 
-    }, {
-        "id": 2,
+        }, {
+            "id": 2,
             "name": "Data Binding"
-    }, {
-        "id": 3,
+            , "image_path": "images/picture/pureshka1.png"
+
+        }, {
+            "id": 3,
             "name": "Canvas"
-    }, {
-        "id": 4,
+            , "image_path": "images/picture/pureshka1.png"
+
+        }, {
+            "id": 4,
             "name": "Android Camera v1 and v2 API"
-    }, {
-        "id": 5,
+            , "image_path": "images/picture/pureshka1.png"
+
+        }, {
+            "id": 5,
             "name": "Camera controls"
-    }, {
-        "id": 6,
+            , "image_path": "images/picture/pureshka1.png"
+
+        }, {
+            "id": 6,
+
             "name": "Sharing of video into youtube"
+            , "image_path": "images/picture/pureshka1.png"
+
         }, {
             "id": 7,
             "name": "facebook"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 8,
             "name": " SQLite"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 9,
             "name": " Android animation"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 10,
             "name": "REST"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 11,
             "name": "Android system webview"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 12,
             "name": "Android system Window and Services"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 13,
             "name": "ExoPlayer by Google"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 14,
             "name": " Building UI and Design"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 15,
             "name": "LibGdx"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 16,
             "name": "Monetization by Google In app Billing"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 17,
             "name": "Appodeal"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 18,
             "name": "JSON"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 19,
             "name": "Retrofit"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 20,
             "name": "Android Fragments"
+            , "image_path": "images/picture/fr1"
+
         }, {
             "id": 21,
             "name": "Adapters"
+            , "image_path": "images/picture/fr1"
+
         }
     ]
 };
