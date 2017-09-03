@@ -34,7 +34,7 @@ $(document).ready(function () {
     var picSkillIds = currentProject.skill_ids;
 
     var ourPicSkills = [];
-    picture.picture.forEach(function (item) {
+    currentProject.pictures.forEach(function (item) {
 
         if ($("skillIds:contains(item.id)")) {
             ourPicSkills.push(item);
