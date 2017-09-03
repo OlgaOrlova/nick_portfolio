@@ -20,9 +20,15 @@ function createItem(person) {
     var button = document.createElement('button');
     button.className = "listButto mui-btn mui-btn--raised mui-btn--danger ";
     button.style.display = "none";
-    listButton.appendChild(button);
+
+    var href = document.createElement("a");
+    href.href = "#myProjects";
+    href.appendChild(button);
+
+    listButton.appendChild(href);
     button.addEventListener("click", function () {
-        window.open("works.html?id=" + person.id);
+
+        g(person.id);
     }, false);
     listButton.addEventListener("mouseover", function () {
         button.style.display = "inline-block";
