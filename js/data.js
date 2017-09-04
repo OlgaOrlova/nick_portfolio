@@ -132,113 +132,113 @@ var skills = {
     "skills": [
         {
             "id": 0,
-            "name": "wifiDirect",
-            "image_path": "images/picture/pureshka1.png"
+            "name": "WifiDirect",
+            "image_path": "images/skills/wifiDirect_lg.jpg"
         }, {
             "id": 1,
             "name": "Opengl ES"
-            , "image_path": "images/picture/pureshka1.png"
+            , "image_path": "images/skills/OpenGL_ES_lgpng.png"
 
         }, {
             "id": 2,
             "name": "Data Binding"
-            , "image_path": "images/picture/pureshka1.png"
+            , "image_path": "images/skills/data_binding_lg.jpg"
 
         }, {
             "id": 3,
             "name": "Canvas"
-            , "image_path": "images/picture/pureshka1.png"
+            , "image_path": "images/skills/canvas_lg.png"
 
         }, {
             "id": 4,
             "name": "Android Camera v1 and v2 API"
-            , "image_path": "images/picture/pureshka1.png"
+            , "image_path": "images/skills/camera_android_lg.jpg"
 
         }, {
             "id": 5,
             "name": "Camera controls"
-            , "image_path": "images/picture/pureshka1.png"
+            , "image_path": "images/skills/camera_controls_android_lg.jpg"
 
         }, {
             "id": 6,
 
             "name": "Sharing of video into youtube"
-            , "image_path": "images/picture/pureshka1.png"
+            , "image_path": "images/skills/youtube_lg.jpg"
 
         }, {
             "id": 7,
-            "name": "facebook"
-            , "image_path": "images/picture/fr1"
+            "name": "Facebook"
+            , "image_path": "images/skills/facebook_lg.jpg"
 
         }, {
             "id": 8,
             "name": " SQLite"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/sqLite_lg.png"
 
         }, {
             "id": 9,
             "name": " Android animation"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/androidAnimation_lg.png"
 
         }, {
             "id": 10,
             "name": "REST"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/rest_lg.png"
 
         }, {
             "id": 11,
             "name": "Android system webview"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/android_system_webview_lg.png"
 
         }, {
             "id": 12,
             "name": "Android system Window and Services"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/AndroidsystemWindow_lg.jpg"
 
         }, {
             "id": 13,
             "name": "ExoPlayer by Google"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/ExoPlayerbyGoogle_lg.jpg"
 
         }, {
             "id": 14,
-            "name": " Building UI and Design"
-            , "image_path": "images/picture/fr1"
+            "name": "Building UI and Design"
+            , "image_path": "images/skills/BuildingUIandDesign_lg.jpg"
 
         }, {
             "id": 15,
             "name": "LibGdx"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/LibGdx_lg.png"
 
         }, {
             "id": 16,
             "name": "Monetization by Google In app Billing"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/MonetizationbyGoogleInappBilling_lg.jpg"
 
         }, {
             "id": 17,
             "name": "Appodeal"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/Appodeal_lg.jpg"
 
         }, {
             "id": 18,
             "name": "JSON"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/JSON_lg.jpg"
 
         }, {
             "id": 19,
             "name": "Retrofit"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/Retrofit_lg.jpg"
 
         }, {
             "id": 20,
             "name": "Android Fragments"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/AndroidFragments_lg.jpg"
 
         }, {
             "id": 21,
             "name": "Adapters"
-            , "image_path": "images/picture/fr1"
+            , "image_path": "images/skills/adapters_lg.png"
 
         }
     ]

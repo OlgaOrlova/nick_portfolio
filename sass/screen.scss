@@ -3,7 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+//@import "compass/reset";
 
 /*Размер главного заголовка первой секции*/
 
@@ -101,36 +101,72 @@ h4#work {
 
 @media (min-width: 768px) and (max-width: 991px) {
 	h1#name {
+		margin-top: 10px;
 		color: $font-colormainheader;
-		font-size: 40px;
+		font-size: 35px;
 		text-transform: uppercase;
 	}
 	h4#work {
+
 		color: $font-colormainheader;
-		font-size: 30px;
+		font-size: 25px;
+	}
+	.category-tileWorks {
+		background-color: #ef5612;
+		border: 2px solid #3F0C1F;
+		overflow: hidden;
+		width: 200px;
+		height: 350px;
+		padding: 0px;
 	}
 }
 
 
 /********** Extra small devices only **********/
 
-@media (min-width: 100px) and (max-width: 767px) {
+@media (min-width: 479px) and (max-width: 767px) {
   .category-tile-project {
 
-    width: 510px;
-    height: 530px;
+	  width: 210px;
+	  height: 415px;
     margin-bottom: 50px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
   }
 
   .card-body {
-    width: 80vw;
-    height: 80vw;
+	  background: rgba(247, 247, 247, 0.99);
+	  position: relative;
+	  padding-bottom: 0px;
+	  margin-top: 0px;
+	  padding-top: 5px;
+	  padding-left: 10px;
+	  padding-right: 12px;
+	  width: 210px;
+	  height: 282px;
   }
-  .imgProject {
-    width: 80vw;
-    height: 80vw;
+	.projectItemButton {
+		font-size: 10px;
+		width: 100px;
+		height: 30px;
+		position: absolute;
+		margin-left: 0px;
+		margin-bottom: 3px;
+		right: 0px;
+		margin-right: 12px;
+	}
+	.card-title {
+		margin-bottom: 0px;
+	}
+	.card-text {
+		margin-top: 0px;
+		font-size: 14px;
+		height: 200px;
+	}
 
+  .imgProject {
+	  margin-bottom: 2px;
+	  width: 210px;
+	  height: 130px;
   }
 	h1#name {
 		color: $font-colormainheader;
@@ -140,5 +176,45 @@ h4#work {
 	h4#work {
 		text-align: center;
 		color: $font-colormainheader;
+	}
+}
+
+@media (max-width: 478px) {
+	.col-xxs-12 {
+
+		background: rgba(247, 247, 247, 0.99);
+		margin-bottom: 30px;
+	}
+
+	.category-tile-project {
+		margin: auto;
+		width: 250px;
+		height: 450px;
+		background-color: rgba(247, 247, 247, 0.99);
+		box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+	}
+
+	.card-body {
+		background: rgba(247, 247, 247, 0.99);
+		position: relative;
+		padding-bottom: 0px;
+		margin-top: 0px;
+		padding-top: 5px;
+		padding-left: 10px;
+		padding-right: 12px;
+		width: 250px;
+		height: 219px;
+	}
+	.imgProject {
+
+		width: 250px;
+		height: 230px;
+	}
+	.projectItemButton {
+
+		position: absolute;
+		margin-bottom: 3px;
+		right: 0px;
+		margin-right: 12px;
 	}
 }

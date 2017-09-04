@@ -65,6 +65,7 @@ body {
 .prommain h2 {
     padding-left: 100px;
     background-color: white;
+    color: #49505F;
 }
 
 /********Лишнее************/
@@ -185,6 +186,7 @@ ul li a {
     flex: 1 1 auto;
     padding: 20px;
     font-family: 'Merriweather Sans', sans-serif;
+    padding: 0px;
 
 }
 
@@ -193,49 +195,77 @@ ul li a {
     background-color: #ef5612;
     color: white;
     bottom: 0px;
-    margin-left: 120px;
+    margin-left: 142px;
     margin-bottom: 15px;
 }
 
 .card-title {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
     color: #0f0f0f;
     padding-bottom: 10px;
 }
 
 .card-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
     color: #49505F;
     padding-bottom: 10px;
 }
 
 /*Карусель*/
 
-#mainContainer {
+FworksmainContainer {
     padding-left: 30px;
-    text-align: center;
 }
 
 #blocks {
 
+    color: #49505F;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
     position: relative;
     display: inline-block;
-    background-color: red;
-    border: 2px solid #3F0C1F;
+    background-color: white;
     overflow: hidden;
-    width: 200px;
-    height: 200px;
     margin-left: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
 
+    font-size: 15px;
 }
 
 #works {
+    position: relative;
     text-align: center;
+
 }
 
 .listButto {
-    margin-top: 65px;
+    margin-top: 115px;
     left: 80px;
     position: absolute;
+    z-index: 2;
 
+}
+
+#buttTwo {
+    margin-left: 55px;
+
+}
+
+#buttOne {
+}
+
+.image {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 250px;
+    height: 250px;
 }
 
 /****About me****/
@@ -338,9 +368,6 @@ input {
 
     .image {
 
-        height: 250px;
-        width: 300px;
-        margin: 0px;
     }
 
     .category-tileWorks {
