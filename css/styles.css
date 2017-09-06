@@ -237,6 +237,7 @@ FworksmainContainer {
     font-size: 15px;
 }
 
+
 #works {
     position: relative;
     text-align: center;
@@ -248,6 +249,7 @@ FworksmainContainer {
     left: 80px;
     position: absolute;
     z-index: 2;
+    background-color: #ff5026;
 
 }
 
@@ -265,8 +267,15 @@ FworksmainContainer {
     left: 0px;
     bottom: 0px;
     width: 250px;
-    height: 250px;
+    height: 200px;
 }
+
+.image:hover {
+    opacity: .25;
+    z-index: 1;
+}
+
+
 
 /****About me****/
 .infoAboutMe {

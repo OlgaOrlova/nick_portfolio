@@ -13,12 +13,14 @@ var blocksArray = [];
 
 function createItem(person) {
     var listButton = document.createElement('div');
+    var nameListButton = document.createElement('div');
+    nameListButton.className = "nameListButton";
     var text = person.id + "<br>";
     text = "<br>" + person.name;
-    listButton.innerHTML = text;
-
+    nameListButton.innerHTML = text;
+    listButton.appendChild(nameListButton);
     var button = document.createElement('button');
-    button.className = "listButto mui-btn mui-btn--raised mui-btn--danger ";
+    button.className = "listButto mui-btn mui-btn--raised ";
     button.style.display = "none";
     var buttonText = "<p>Click me</p>";
     button.innerHTML = buttonText;

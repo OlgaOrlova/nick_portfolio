@@ -59,9 +59,6 @@ h4#work {
 }
 
 
-
-
-
 /*Последняя секция контактов*/
 
 .card-title {
@@ -87,6 +84,8 @@ h4#work {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+	//start first section
 	h1#name {
 		color: $font-colormainheader;
 		font-size: 45px;
@@ -97,9 +96,11 @@ h4#work {
 		font-size: 40px;
 		text-shadow: 1px 1px #333;
 	}
+	//end first section
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	//start first section
 	h1#name {
 		margin-top: 10px;
 		color: $font-colormainheader;
@@ -111,20 +112,62 @@ h4#work {
 		color: $font-colormainheader;
 		font-size: 25px;
 	}
-	.category-tileWorks {
-		background-color: #ef5612;
-		border: 2px solid #3F0C1F;
-		overflow: hidden;
+	//end first section
+
+	//start carusel
+
+	#blocks {
+
 		width: 200px;
-		height: 350px;
-		padding: 0px;
+		height: 250px;
+		box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+		position: relative;
+		display: inline-block;
+		background-color: white;
+		overflow: hidden;
+		margin-left: 30px;
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 15px;
+
 	}
+	.listButto {
+		margin-top: 90px;
+		left: 40px;
+		position: absolute;
+		z-index: 2;
+		background-color: #ff5026;
+
+	}
+	.image {
+		z-index: 1;
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		width: 200px;
+		height: 150px;
+	}
+	//	end carusel
+
+
 }
 
 
 /********** Extra small devices only **********/
 
 @media (min-width: 479px) and (max-width: 767px) {
+	//start first section
+	h1#name {
+		color: $font-colormainheader;
+		font-size: 35px;
+		text-transform: uppercase;
+	}
+	h4#work {
+		text-align: center;
+		color: $font-colormainheader;
+	}
+	//end first section
+
+	//start cards
   .category-tile-project {
 
 	  width: 210px;
@@ -168,15 +211,41 @@ h4#work {
 	  width: 210px;
 	  height: 130px;
   }
-	h1#name {
-		color: $font-colormainheader;
-		font-size: 35px;
-		text-transform: uppercase;
+	//end cards
+
+	//start carusel
+
+	#blocks {
+
+		width: 180px;
+		height: 210px;
+		box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+		position: relative;
+		display: inline-block;
+		background-color: white;
+		overflow: hidden;
+		margin-left: 30px;
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 15px;
+
 	}
-	h4#work {
-		text-align: center;
-		color: $font-colormainheader;
+	.listButto {
+		margin-top: 90px;
+		left: 40px;
+		position: absolute;
+		z-index: 2;
+		background-color: #ff5026;
+
 	}
+	.image {
+		z-index: 1;
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		width: 180px;
+		height: 140px;
+	}
+	//	end carusel
 }
 
 @media (max-width: 478px) {
@@ -185,7 +254,18 @@ h4#work {
 		background: rgba(247, 247, 247, 0.99);
 		margin-bottom: 30px;
 	}
+	//start first section
+	h1#name {
 
+		font-size: 30px;
+
+	}
+	h4#work {
+		font-size: 20px;
+	}
+	//end first section
+
+	//Start cards
 	.category-tile-project {
 		margin: auto;
 		width: 250px;
@@ -217,4 +297,39 @@ h4#work {
 		right: 0px;
 		margin-right: 12px;
 	}
+	//End cards
+
+	//start carusel
+
+	#blocks {
+
+		width: 90px;
+		height: 100px;
+		box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+		position: relative;
+		display: inline-block;
+		background-color: white;
+		overflow: hidden;
+		margin-left: 30px;
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 15px;
+
+	}
+	.listButto {
+		margin-top: 90px;
+		left: 40px;
+		position: absolute;
+		z-index: 2;
+		background-color: #ff5026;
+
+	}
+	.image {
+		z-index: 1;
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		width: 90px;
+		height: 50px;
+	}
+	//	end carusel
 }
