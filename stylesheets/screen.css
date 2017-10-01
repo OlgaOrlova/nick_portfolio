@@ -12,7 +12,7 @@
 /*╨Я╨╡╤А╨▓╨░╤П ╤Б╨╡╨║╤Ж╨╕╤П*/
 /* line 35, ../sass/screen.scss */
 h1#name {
-    margin-top: 15px;
+  margin-top: 15px;
   color: #49505F;
   font-size: 60px;
   text-transform: uppercase;
@@ -30,283 +30,411 @@ h4#work {
 .menu-categoriesnamesOfAll-title {
   font-family: "Merriweather", serif;
   font-size: 30px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-top: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
   color: #49505F;
 }
 
-/*╨Я╨╛╤Б╨╗╨╡╨┤╨╜╤П╤П ╤Б╨╡╨║╤Ж╨╕╤П ╨║╨╛╨╜╤В╨░╨║╤В╨╛╨▓*/
-/* line 64, ../sass/screen.scss */
-.card-title {
-  font-family: "Merriweather", serif;
-}
-
-/***Contact form***/
-/* line 70, ../sass/screen.scss */
-.contact-content h1 {
-  color: black;
-  text-transform: capitalize;
-  margin-bottom: 30px;
-  font-size: 30px;
-}
-
-/* line 77, ../sass/screen.scss */
-.contact-content p {
-  background: rgba(132, 120, 120, 0.71) none repeat scroll 0 0;
-  border-radius: 5px;
-  color: black;
-  font-size: 16px;
-  margin-bottom: 20px;
-  padding: 20px 15px;
-}
-
 @media (min-width: 992px) and (max-width: 1199px) {
-    /* line 89, ../sass/screen.scss */
+  /* line 65, ../sass/screen.scss */
   h1#name {
     color: #49505F;
     font-size: 45px;
     text-transform: uppercase;
   }
 
-    /* line 94, ../sass/screen.scss */
+  /* line 70, ../sass/screen.scss */
   h4#work {
     color: #49505F;
     font-size: 40px;
     text-shadow: 1px 1px #333;
   }
+
+  /* line 76, ../sass/screen.scss */
+  .card-body {
+    background: linear-gradient(to right, #FFFFFF 0%, #EEEEEE 20%, #FFFFFF 100%);
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    /* line 104, ../sass/screen.scss */
+  /* line 83, ../sass/screen.scss */
   h1#name {
-      margin-top: 10px;
+    margin-top: 10px;
     color: #49505F;
-      font-size: 35px;
+    font-size: 35px;
     text-transform: uppercase;
   }
 
-    /* line 110, ../sass/screen.scss */
+  /* line 89, ../sass/screen.scss */
   h4#work {
     color: #49505F;
-      font-size: 25px;
+    font-size: 25px;
   }
 
-    /* line 120, ../sass/screen.scss */
-    #blocks {
-        width: 200px;
-        height: 250px;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
-        position: relative;
-        display: inline-block;
-        background-color: white;
-        overflow: hidden;
-        margin-left: 30px;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-size: 15px;
-    }
+  /* line 97, ../sass/screen.scss */
+  .card-body {
+    background: linear-gradient(to right, #FFFFFF 0%, #EEEEEE 20%, #FFFFFF 100%);
+  }
 
-    /* line 134, ../sass/screen.scss */
-    .listButto {
-        margin-top: 90px;
-        left: 40px;
-        position: absolute;
-        z-index: 2;
-        background-color: #ff5026;
-    }
+  /* line 100, ../sass/screen.scss */
+  #blocks {
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+  }
 
-    /* line 142, ../sass/screen.scss */
-    .image {
-        z-index: 1;
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-        width: 200px;
-        height: 150px;
+  /* line 114, ../sass/screen.scss */
+  .listButto {
+    margin-top: 90px;
+    left: 40px;
+    position: absolute;
+    z-index: 2;
+    background-color: #ff5026;
+  }
+
+  /* line 122, ../sass/screen.scss */
+  .image {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    height: 150px;
   }
 }
 /********** Extra small devices only **********/
 @media (min-width: 479px) and (max-width: 767px) {
-    /* line 160, ../sass/screen.scss */
-    h1#name {
-        color: #49505F;
-        font-size: 35px;
-        text-transform: uppercase;
-    }
+  /* line 140, ../sass/screen.scss */
+  h1#name {
+    color: #49505F;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
 
-    /* line 165, ../sass/screen.scss */
-    h4#work {
-        text-align: center;
-        color: #49505F;
-    }
+  /* line 145, ../sass/screen.scss */
+  h4#work {
+    text-align: center;
+    color: #49505F;
+  }
 
-    /* line 172, ../sass/screen.scss */
+  /* line 152, ../sass/screen.scss */
   .category-tile-project {
-      width: 210px;
-      height: 415px;
+    width: 210px;
+    height: 415px;
     margin-bottom: 50px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
   }
 
-    /* line 180, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   .card-body {
-      background: rgba(247, 247, 247, 0.99);
-      position: relative;
-      padding-bottom: 0px;
-      margin-top: 0px;
-      padding-top: 5px;
-      padding-left: 10px;
-      padding-right: 12px;
-      width: 210px;
-      height: 282px;
+    background: linear-gradient(to right, #FFFFFF 0%, #EEEEEE 20%, #FFFFFF 100%);
+    position: relative;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 12px;
+    width: 210px;
+    height: 282px;
   }
 
-    /* line 191, ../sass/screen.scss */
-    .projectItemButton {
-        font-size: 10px;
-        width: 100px;
-        height: 30px;
-        position: absolute;
-        margin-left: 0px;
-        margin-bottom: 3px;
-        right: 0px;
-        margin-right: 12px;
-    }
+  /* line 171, ../sass/screen.scss */
+  .projectItemButton {
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    margin-left: 0px;
+    margin-bottom: 3px;
+    right: 0px;
+    margin-right: 12px;
+  }
 
-    /* line 201, ../sass/screen.scss */
-    .card-title {
-        margin-bottom: 0px;
-    }
+  /* line 181, ../sass/screen.scss */
+  .card-title {
+    margin-bottom: 0px;
+  }
 
-    /* line 204, ../sass/screen.scss */
-    .card-text {
-        margin-top: 0px;
-        font-size: 14px;
-        height: 200px;
-    }
+  /* line 184, ../sass/screen.scss */
+  .card-text {
+    margin-top: 0px;
+    font-size: 14px;
+    height: 200px;
+  }
 
-    /* line 210, ../sass/screen.scss */
+  /* line 190, ../sass/screen.scss */
   .imgProject {
-      margin-bottom: 2px;
-      width: 210px;
-      height: 130px;
+    margin-bottom: 2px;
+    width: 210px;
+    height: 130px;
   }
 
-    /* line 219, ../sass/screen.scss */
-    #blocks {
-        width: 180px;
-        height: 210px;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
-        position: relative;
-        display: inline-block;
-        background-color: white;
-        overflow: hidden;
-        margin-left: 30px;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-size: 15px;
+  /* line 199, ../sass/screen.scss */
+  #blocks {
+    width: 20vw;
+    height: 23vw;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
   }
 
-    /* line 233, ../sass/screen.scss */
-    .listButto {
-        margin-top: 90px;
-        left: 40px;
-        position: absolute;
-        z-index: 2;
-        background-color: #ff5026;
+  /* line 213, ../sass/screen.scss */
+  .listButto {
+    bottom: 0px;
+    width: 55px;
+    height: 30px;
+    margin-left: -15px;
+    margin-bottom: 40px;
+    left: 40px;
+    position: absolute;
+    z-index: 2;
+    background-color: #ff5026;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: yellow;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
   }
 
-    /* line 241, ../sass/screen.scss */
-    .image {
-        z-index: 1;
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-        width: 180px;
-        height: 140px;
-    }
+  /* line 230, ../sass/screen.scss */
+  .controlButtons {
+    width: 80px;
+    height: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 3px;
+    color: white;
+  }
+
+  /* line 241, ../sass/screen.scss */
+  .image {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 20vw;
+    height: 15vw;
+  }
+
+  /****Education****/
+  /* line 253, ../sass/screen.scss */
+  .infoAboutMe {
+    position: relative;
+  }
+
+  /* line 257, ../sass/screen.scss */
+  .mainDisplyPic {
+    z-index: 1;
+  }
+
+  /* line 261, ../sass/screen.scss */
+  .formAboutme {
+    bottom: 500px;
+    z-index: 2;
+    box-shadow: 5px 5px 0px rgba(255, 80, 38, 0.37);
+    width: 350px;
+    height: 350px;
+    border-radius: 3%;
+    border: 2px outset #ff5026;
+  }
+
+  /* line 271, ../sass/screen.scss */
+  .nameAbounme {
+    width: 350px;
+    z-index: 2;
+    color: #49505F;
+    bottom: 510px;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+  }
+
+  /* line 280, ../sass/screen.scss */
+  .list {
+    color: black;
+    position: absolute;
+    margin: 20px;
+    padding-bottom: 2px;
+    width: 310px;
+  }
+
+  /* line 288, ../sass/screen.scss */
+  hr {
+    margin-top: 0px;
+    width: 270px;
+  }
+
+  /*END Education*/
 }
+
 @media (max-width: 478px) {
-    /* line 253, ../sass/screen.scss */
-    .col-xxs-12 {
-        background: rgba(247, 247, 247, 0.99);
-        margin-bottom: 30px;
-    }
+  /* line 297, ../sass/screen.scss */
+  .col-xxs-12 {
+    background: rgba(247, 247, 247, 0.99);
+    margin-bottom: 30px;
+  }
 
-    /* line 259, ../sass/screen.scss */
-    h1#name {
-        font-size: 30px;
-    }
+  /* line 303, ../sass/screen.scss */
+  h1#name {
+    font-size: 30px;
+  }
 
-    /* line 264, ../sass/screen.scss */
-    h4#work {
-        font-size: 20px;
-    }
+  /* line 308, ../sass/screen.scss */
+  h4#work {
+    font-size: 20px;
+  }
 
-    /* line 270, ../sass/screen.scss */
-    .category-tile-project {
-        margin: auto;
-        width: 250px;
-        height: 450px;
-        background-color: rgba(247, 247, 247, 0.99);
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
-    }
+  /* line 314, ../sass/screen.scss */
+  .category-tile-project {
+    margin: auto;
+    width: 250px;
+    height: 450px;
+    background-color: rgba(247, 247, 247, 0.99);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+  }
 
-    /* line 278, ../sass/screen.scss */
-    .card-body {
-        background: rgba(247, 247, 247, 0.99);
-        position: relative;
-        padding-bottom: 0px;
-        margin-top: 0px;
-        padding-top: 5px;
-        padding-left: 10px;
-        padding-right: 12px;
-        width: 250px;
-        height: 219px;
-    }
+  /* line 322, ../sass/screen.scss */
+  .card-body {
+    background: linear-gradient(to right, #FFFFFF 0%, #EEEEEE 20%, #FFFFFF 100%);
+    position: relative;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 12px;
+    width: 250px;
+    height: 219px;
+  }
 
-    /* line 289, ../sass/screen.scss */
-    .imgProject {
-        width: 250px;
-        height: 230px;
-    }
+  /* line 334, ../sass/screen.scss */
+  .imgProject {
+    width: 250px;
+    height: 230px;
+  }
 
-    /* line 294, ../sass/screen.scss */
-    .projectItemButton {
-        position: absolute;
-        margin-bottom: 3px;
-        right: 0px;
-        margin-right: 12px;
-    }
+  /* line 339, ../sass/screen.scss */
+  .projectItemButton {
+    position: absolute;
+    margin-bottom: 3px;
+    right: 0px;
+    margin-right: 12px;
+  }
 
-    /* line 306, ../sass/screen.scss */
-    #blocks {
-        width: 90px;
-        height: 100px;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
-        position: relative;
-        display: inline-block;
-        background-color: white;
-        overflow: hidden;
-        margin-left: 30px;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-size: 15px;
-    }
+  /* line 350, ../sass/screen.scss */
+  #blocks {
+    width: 90px;
+    height: 120px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 30px;
+  }
 
-    /* line 320, ../sass/screen.scss */
-    .listButto {
-        margin-top: 90px;
-        left: 40px;
-        position: absolute;
-        z-index: 2;
-        background-color: #ff5026;
-    }
+  /* line 363, ../sass/screen.scss */
+  .listButto {
+    bottom: 0px;
+    width: 50px;
+    height: 30px;
+    margin-left: -18px;
+    margin-bottom: 40px;
+    left: 40px;
+    position: absolute;
+    z-index: 2;
+    background-color: #ff5026;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 8px;
+    padding: 5px;
+    text-align: center;
+  }
 
-    /* line 328, ../sass/screen.scss */
-    .image {
-        z-index: 1;
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-        width: 90px;
-        height: 50px;
-    }
+  /* line 378, ../sass/screen.scss */
+  .controlButtons {
+    width: 70px;
+    height: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 3px;
+  }
+
+  /* line 387, ../sass/screen.scss */
+  .image {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 50px;
+  }
+
+  /* line 395, ../sass/screen.scss */
+  .nameListButton {
+    font-family: "Merriweather", serif;
+    font-size: 12px;
+  }
+
+  /****Education****/
+  /* line 402, ../sass/screen.scss */
+  .infoAboutMe {
+    position: relative;
+  }
+
+  /* line 406, ../sass/screen.scss */
+  .mainDisplyPic {
+    z-index: 1;
+  }
+
+  /* line 410, ../sass/screen.scss */
+  .formAboutme {
+    bottom: 500px;
+    z-index: 2;
+    box-shadow: 5px 5px 0px rgba(255, 80, 38, 0.37);
+    width: 80vw;
+    height: 550px;
+    border-radius: 3%;
+    border: 2px outset #ff5026;
+  }
+
+  /* line 421, ../sass/screen.scss */
+  .nameAbounme {
+    width: 350px;
+    z-index: 2;
+    color: #49505F;
+    bottom: 510px;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+  }
+
+  /* line 430, ../sass/screen.scss */
+  .list {
+    color: black;
+    position: absolute;
+    margin: 20px;
+    padding-bottom: 2px;
+    width: 60vw;
+  }
+
+  /* line 438, ../sass/screen.scss */
+  hr {
+    margin-top: 0px;
+    width: 50vw;
+  }
+
+  /*END Education*/
 }

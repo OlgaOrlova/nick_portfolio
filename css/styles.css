@@ -21,10 +21,12 @@
     padding-bottom: 650px;
     font-family: verdana;
     font-size: 15px;
+    z-index: 3;
 }
 
 #toTop:hover {
     background-color: rgba(239, 86, 18, 0.18);
+    z-index: 3;
 }
 
 /*
@@ -179,7 +181,9 @@ ul li a {
 
 }
 
+
 .card-body {
+    background: linear-gradient(to right, #FFFFFF 0%, #EEEEEE 20%, #FFFFFF 100%);
     position: relative;
     width: 290px;
     height: 211px;
@@ -188,8 +192,12 @@ ul li a {
     font-family: 'Merriweather Sans', sans-serif;
     padding: 0px;
 
+
 }
 
+.imgProject {
+
+}
 .projectItemButton {
     position: absolute;
     background-color: #ef5612;
@@ -197,6 +205,7 @@ ul li a {
     bottom: 0px;
     margin-left: 142px;
     margin-bottom: 15px;
+
 }
 
 .card-title {
@@ -205,6 +214,7 @@ ul li a {
     margin-top: 0px;
     color: #0f0f0f;
     padding-bottom: 10px;
+
 }
 
 .card-text {
@@ -213,7 +223,9 @@ ul li a {
     font-size: 13px;
     color: #49505F;
     padding-bottom: 10px;
+
 }
+
 
 /*Карусель*/
 
@@ -244,6 +256,7 @@ FworksmainContainer {
 
 }
 
+
 .listButto {
     margin-top: 115px;
     left: 80px;
@@ -253,12 +266,24 @@ FworksmainContainer {
 
 }
 
+.iconButtonCarusel2 {
+    color: #ff5026;
+}
 #buttTwo {
+
     margin-left: 55px;
+    border: 2px solid #ff5026;
+    text-align: center;
 
 }
 
+.iconButtonCarusel1 {
+    color: #ff5026;
+}
+
 #buttOne {
+    border: 2px solid #ff5026;
+    text-align: center;
 }
 
 .image {
@@ -275,9 +300,7 @@ FworksmainContainer {
     z-index: 1;
 }
 
-
-
-/****About me****/
+/****Education****/
 .infoAboutMe {
     position: relative;
 }
@@ -290,10 +313,11 @@ FworksmainContainer {
     bottom: 500px;
     z-index: 2;
     box-shadow: 5px 5px 0px rgba(255, 80, 38, 0.37);
-    width: 350px;
+    width: 450px;
     height: 300px;
     border-radius: 3%;
     border: 2px outset #ff5026;
+    z-index: 2;
 }
 
 .nameAbounme {
@@ -317,45 +341,8 @@ hr {
     width: 300px;
 }
 
-/*END ABOUT ME*/
+/*END Education*/
 
-/***Contact form***/
-
-section#contact-area {
-    color: black;
-    background-image: url('../images/bg-3.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.contact-form-left {
-    padding-left: 0;
-}
-
-.contact-form-right {
-    padding-right: 0;
-}
-
-input {
-    margin-bottom: 15px;
-}
-
-.form-control {
-    border: none;
-    background: rgba(132, 120, 120, 0.71);
-}
-
-.form-group button {
-    background: #262628 none repeat scroll 0 0;
-    color: #fff;
-    margin-top: 20px;
-    padding: 10px 30px;
-    font-size: 18px;
-    border-radius: 10px;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
 
 /****Фото главное и И.Ф.О****/
 

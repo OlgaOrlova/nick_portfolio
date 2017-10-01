@@ -131,6 +131,29 @@ var projects = {
 var skills = {
     "skills": [
         {
+            "id": 19,
+            "name": "Retrofit"
+            , "image_path": "images/skills/Retrofit_lg.png"
+
+        },
+        {
+            "id": 12,
+            "name": "JUnit"
+            , "image_path": "images/skills/junit_lg.png"
+
+        },
+        {
+            "id": 14,
+            "name": "Dagger 2"
+            , "image_path": "images/skills/dagger2_lg.jpg"
+
+        },
+        {
+            "id": 15,
+            "name": "Rx Java",
+            "image_path": "images/skills/rxjava.png"
+        },
+        {
             "id": 0,
             "name": "WifiDirect",
             "image_path": "images/skills/wifiDirect_lg.jpg"
@@ -151,24 +174,19 @@ var skills = {
 
         }, {
             "id": 4,
-            "name": "Android Camera v1 and v2 API"
+            "name": "Camera"
             , "image_path": "images/skills/camera_android_lg.jpg"
-
-        }, {
-            "id": 5,
-            "name": "Camera controls"
-            , "image_path": "images/skills/camera_controls_android_lg.jpg"
 
         }, {
             "id": 6,
 
-            "name": "Sharing of video into youtube"
-            , "image_path": "images/skills/youtube_lg.jpg"
+            "name": "Youtube"
+            , "image_path": "images/skills/youtube_lg.png"
 
         }, {
             "id": 7,
             "name": "Facebook"
-            , "image_path": "images/skills/facebook_lg.jpg"
+            , "image_path": "images/skills/facebook_lg.png"
 
         }, {
             "id": 8,
@@ -187,23 +205,13 @@ var skills = {
 
         }, {
             "id": 11,
-            "name": "Android system webview"
+            "name": "Webview"
             , "image_path": "images/skills/android_system_webview_lg.png"
 
         }, {
-            "id": 12,
-            "name": "Android system Window and Services"
-            , "image_path": "images/skills/AndroidsystemWindow_lg.jpg"
-
-        }, {
             "id": 13,
-            "name": "ExoPlayer by Google"
+            "name": "ExoPlayer"
             , "image_path": "images/skills/ExoPlayerbyGoogle_lg.jpg"
-
-        }, {
-            "id": 14,
-            "name": "Building UI and Design"
-            , "image_path": "images/skills/BuildingUIandDesign_lg.jpg"
 
         }, {
             "id": 15,
@@ -212,7 +220,7 @@ var skills = {
 
         }, {
             "id": 16,
-            "name": "Monetization by Google In app Billing"
+            "name": "Billing"
             , "image_path": "images/skills/MonetizationbyGoogleInappBilling_lg.jpg"
 
         }, {
@@ -223,22 +231,7 @@ var skills = {
         }, {
             "id": 18,
             "name": "JSON"
-            , "image_path": "images/skills/JSON_lg.jpg"
-
-        }, {
-            "id": 19,
-            "name": "Retrofit"
-            , "image_path": "images/skills/Retrofit_lg.jpg"
-
-        }, {
-            "id": 20,
-            "name": "Android Fragments"
-            , "image_path": "images/skills/AndroidFragments_lg.jpg"
-
-        }, {
-            "id": 21,
-            "name": "Adapters"
-            , "image_path": "images/skills/adapters_lg.png"
+            , "image_path": "images/skills/JSON_lg.png"
 
         }
     ]

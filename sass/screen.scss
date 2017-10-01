@@ -59,30 +59,6 @@ h4#work {
 }
 
 
-/*Последняя секция контактов*/
-
-.card-title {
-
-	font-family: $font-stack;
-}
-/***Contact form***/
-
-.contact-content h1 {
-	color: $font-colorofmaintext;
-	text-transform: capitalize;
-	margin-bottom: 30px;
-	font-size: $headline-fonts;
-}
-
-.contact-content p {
-	background: rgba(132, 120, 120, 0.71) none repeat scroll 0 0;
-	border-radius: 5px;
-	color: $font-colorofmaintext;
-	font-size: 16px;
-	margin-bottom: 20px;
-	padding: 20px 15px;
-}
-
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	//start first section
@@ -97,6 +73,9 @@ h4#work {
 		text-shadow: 1px 1px #333;
 	}
 	//end first section
+	.card-body {
+		background: linear-gradient(to right, #FFFFFF 0%, #EEEEEE 20%, #FFFFFF 100%);
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -115,7 +94,9 @@ h4#work {
 	//end first section
 
 	//start carusel
-
+	.card-body {
+		background: linear-gradient(to right, #FFFFFF 0%, #EEEEEE 20%, #FFFFFF 100%);
+	}
 	#blocks {
 
 		width: 200px;
@@ -177,7 +158,7 @@ h4#work {
   }
 
   .card-body {
-	  background: rgba(247, 247, 247, 0.99);
+	  background: linear-gradient(to right, #FFFFFF 0%, #EEEEEE 20%, #FFFFFF 100%);
 	  position: relative;
 	  padding-bottom: 0px;
 	  margin-top: 0px;
@@ -217,8 +198,8 @@ h4#work {
 
 	#blocks {
 
-		width: 180px;
-		height: 210px;
+		width: 20vw;
+		height: 23vw;
 		box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
 		position: relative;
 		display: inline-block;
@@ -230,22 +211,85 @@ h4#work {
 
 	}
 	.listButto {
-		margin-top: 90px;
+		bottom: 0px;
+		width: 55px;
+		height: 30px;
+		margin-left: -15px;
+		margin-bottom: 40px;
 		left: 40px;
 		position: absolute;
 		z-index: 2;
 		background-color: #ff5026;
+		font-family: 'Merriweather Sans', sans-serif;
+		color: yellow;
+		font-size: 10px;
+		padding: 5px;
+		text-align: center;
 
 	}
+	.controlButtons {
+		width: 80px;
+		height: 30px;
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 12px;
+		text-align: center;
+		padding-right: 0px;
+		padding-left: 3px;
+		color: white;
+	}
+
 	.image {
 		z-index: 1;
 		position: absolute;
 		left: 0px;
 		bottom: 0px;
-		width: 180px;
-		height: 140px;
+		width: 20vw;
+		height: 15vw;
 	}
 	//	end carusel
+
+	/****Education****/
+	.infoAboutMe {
+		position: relative;
+	}
+
+	.mainDisplyPic {
+		z-index: 1;
+	}
+
+	.formAboutme {
+		bottom: 500px;
+		z-index: 2;
+		box-shadow: 5px 5px 0px rgba(255, 80, 38, 0.37);
+		width: 350px;
+		height: 350px;
+		border-radius: 3%;
+		border: 2px outset #ff5026;
+	}
+
+	.nameAbounme {
+		width: 350px;
+		z-index: 2;
+		color: #49505F;
+		bottom: 510px;
+		font-family: 'Merriweather', serif;
+		font-size: 25px;
+	}
+
+	.list {
+		color: black;
+		position: absolute;
+		margin: 20px;
+		padding-bottom: 2px;
+		width: 310px;
+	}
+
+	hr {
+		margin-top: 0px;
+		width: 270px;
+	}
+
+	/*END Education*/
 }
 
 @media (max-width: 478px) {
@@ -275,7 +319,8 @@ h4#work {
 	}
 
 	.card-body {
-		background: rgba(247, 247, 247, 0.99);
+		//background: rgba(247, 247, 247, 0.99);
+		background: linear-gradient(to right, #FFFFFF 0%, #EEEEEE 20%, #FFFFFF 100%);
 		position: relative;
 		padding-bottom: 0px;
 		margin-top: 0px;
@@ -304,24 +349,39 @@ h4#work {
 	#blocks {
 
 		width: 90px;
-		height: 100px;
+		height: 120px;
 		box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
 		position: relative;
 		display: inline-block;
 		background-color: white;
 		overflow: hidden;
 		margin-left: 30px;
-		font-family: 'Merriweather Sans', sans-serif;
-		font-size: 15px;
+
 
 	}
 	.listButto {
-		margin-top: 90px;
+		bottom: 0px;
+		width: 50px;
+		height: 30px;
+		margin-left: -18px;
+		margin-bottom: 40px;
 		left: 40px;
 		position: absolute;
 		z-index: 2;
 		background-color: #ff5026;
-
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 8px;
+		padding: 5px;
+		text-align: center;
+	}
+	.controlButtons {
+		width: 70px;
+		height: 30px;
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 12px;
+		text-align: center;
+		padding-right: 0px;
+		padding-left: 3px;
 	}
 	.image {
 		z-index: 1;
@@ -331,5 +391,53 @@ h4#work {
 		width: 90px;
 		height: 50px;
 	}
+	.nameListButton {
+		font-family: $font-stack;
+		font-size: 12px;
+	}
+
 	//	end carusel
+	/****Education****/
+	.infoAboutMe {
+		position: relative;
+	}
+
+	.mainDisplyPic {
+		z-index: 1;
+	}
+
+	.formAboutme {
+		bottom: 500px;
+		z-index: 2;
+		box-shadow: 5px 5px 0px rgba(255, 80, 38, 0.37);
+		width: 80vw;
+		height: 550px;
+		border-radius: 3%;
+		border: 2px outset #ff5026;
+
+	}
+
+	.nameAbounme {
+		width: 350px;
+		z-index: 2;
+		color: #49505F;
+		bottom: 510px;
+		font-family: 'Merriweather', serif;
+		font-size: 25px;
+	}
+
+	.list {
+		color: black;
+		position: absolute;
+		margin: 20px;
+		padding-bottom: 2px;
+		width: 60vw;
+	}
+
+	hr {
+		margin-top: 0px;
+		width: 50vw;
+	}
+
+	/*END Education*/
 }
