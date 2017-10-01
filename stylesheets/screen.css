@@ -279,7 +279,6 @@ h4#work {
 
   /*END Education*/
 }
-
 @media (max-width: 478px) {
   /* line 297, ../sass/screen.scss */
   .col-xxs-12 {
@@ -322,7 +321,7 @@ h4#work {
   /* line 334, ../sass/screen.scss */
   .imgProject {
     width: 250px;
-    height: 230px;
+    height: 154px;
   }
 
   /* line 339, ../sass/screen.scss */

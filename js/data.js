@@ -98,7 +98,7 @@ var projects = {
         {
             "id": 6,
             "name": "Pureshka game",
-            "preview_img": "images/project_previews/pr6.png",
+            "preview_img": "images/project_previews/pr7.png",
             "description": "You can shoot plates with pure by forks!",
             "skill_ids": [15, 16, 17],
             "pictures": [
@@ -113,7 +113,7 @@ var projects = {
         {
             "id": 7,
             "name": "French Boulevard",
-            "preview_img": "images/project_previews/pr6.png",
+            "preview_img": "images/project_previews/pr8.png",
             "description": "French Boulevard Client application for trade center. Getting response from server. Registration + authorization.",
             "skill_ids": [8, 18, 19, 20, 21],
             "pictures": [
