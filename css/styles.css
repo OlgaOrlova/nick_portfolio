@@ -250,8 +250,7 @@ FworksmainContainer {
     font-size: 15px;
 }
 
-
-#works {
+#skill {
     position: relative;
     text-align: center;
 
@@ -303,7 +302,7 @@ FworksmainContainer {
 
 /****Education****/
 #aboutme {
-    background: green;
+    background: rgba(247, 247, 247, 0.99);
     height: 620px;
 }
 .infoAboutMe {
@@ -348,7 +347,7 @@ hr {
 
 .container#infoAboutme {
 
-    background: red;
+    background: rgba(247, 247, 247, 0.99);
     height: 550px;
 }
 /*END Education*/
