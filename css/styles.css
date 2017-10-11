@@ -43,6 +43,7 @@ body {
     color: #fff;
     background-color: white;
     font-family: 'Oxygen', sans-serif;
+
 }
 
 /** HEADER **/
@@ -301,6 +302,10 @@ FworksmainContainer {
 }
 
 /****Education****/
+#aboutme {
+    background: green;
+    height: 620px;
+}
 .infoAboutMe {
     position: relative;
 }
@@ -341,6 +346,11 @@ hr {
     width: 300px;
 }
 
+.container#infoAboutme {
+
+    background: red;
+    height: 550px;
+}
 /*END Education*/
 
 
