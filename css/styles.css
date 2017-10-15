@@ -5,7 +5,9 @@
 /*.ace {*/
 /*left: -295px; z-index: 1;*/
 /*}*/
-
+.projectBlok {
+    display: none;
+}
 #toTop {
     height: 100%;
     width: 60px;
