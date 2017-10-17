@@ -1,0 +1,427 @@
+/*START HEADER*/
+#header-nav {
+    height: 94px;
+    margin-bottom: 0;
+    background-color: #383E4C;
+    border-radius: 0;
+    border: 0;
+}
+
+#headerName {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+/*END HEADER*/
+
+#mainContent {
+    padding-top: 15px;
+
+    /*padding-left: 20%;*/
+
+}
+
+/*START FIRST SECTION  background-color: rgba(247, 247, 247, 0.99);*/
+
+#section1 {
+    padding: 30px;
+    height: 350px;
+    width: 900px;
+    background-color: rgba(247, 247, 247, 0.99);
+    margin: auto;
+
+}
+
+.imgProjectDetail {
+    padding-right: 20px;
+    float: left;
+}
+
+.title {
+    text-align: center;
+    color: #49505F;
+
+}
+
+.projectCardsBody {
+    font-family: 'Merriweather', serif;
+    text-align: justify;
+    width: 400px;
+    float: left;
+    color: #49505F;
+    font-size: 20px;
+
+}
+
+/*END FIRST SECTION*/
+
+/*START SECOND SECTION*/
+.ovalBody {
+    text-align: center;
+    margin-left: 10px;
+    width: 110px;
+    height: 50px;
+    background: #109796;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}
+
+.ovalBodyName {
+    padding-top: 20%;
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-size: 15px;
+}
+
+#section2 {
+    padding: 20px;
+    margin: auto;
+    height: 100px;
+    width: 900px;
+    background-color: rgba(247, 247, 247, 0.99);
+
+}
+
+/*END SECOND SECTION*/
+
+/*START SECTION Pik 3*/
+#section3 {
+    padding-left: 15px;
+    margin: auto;
+    height: 650px;
+    width: 900px;
+    background-color: rgba(247, 247, 247, 0.99);
+
+}
+
+.imageBlock {
+    padding: 0px;
+    background-color: rgba(247, 247, 247, 0.99);
+}
+
+body {
+    margin: 0;
+}
+
+.image {
+    padding-top: 15px;
+    padding-bottom: 35px;
+    width: 435px;
+    cursor: pointer;
+}
+
+.popup {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+}
+
+.popup_bg {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+    height: 200%;
+    width: 100%;
+}
+
+.popup_img {
+    position: relative;
+    margin: 0 auto;
+    z-index: 100;
+    max-height: 50%;
+    max-width: 50%;
+    margin: 25% 0% 0% 0%;
+}
+
+/*END SECTION Pik3*/
+
+/*Adaptation for all screens*/
+
+/* START "col-sm" small small screens*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #headerName {
+        font-size: 6vw;
+    }
+
+    /*first section*/
+    .imgProjectDetail {
+        padding-right: 20px;
+        float: left;
+        width: 350px;
+        height: 234px;
+
+    }
+
+    #section1 {
+        padding: 30px;
+        height: 350px;
+        width: 700px;
+        background-color: rgba(247, 247, 247, 0.99);
+        margin: auto;
+
+    }
+
+    .projectCardsBody {
+        font-family: 'Merriweather', serif;
+        text-align: justify;
+        width: 250px;
+        float: left;
+        color: #49505F;
+        font-size: 15px;
+
+    }
+
+    /*section 2*/
+    #section2 {
+        padding: 20px;
+        margin: auto;
+        height: 150px;
+        width: 700px;;
+        background-color: rgba(247, 247, 247, 0.99);
+
+    }
+
+    .ovalBody {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*Section 3*/
+    #section3 {
+
+        padding: 0px;
+        height: 700px;
+        width: 700px;;
+        background-color: rgba(247, 247, 247, 0.99);
+
+    }
+
+    .image {
+        width: 300px;
+        height: 250px;
+    }
+
+    .imageBlock {
+        text-align: center;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .popup_img {
+        position: relative;
+        margin: 0 auto;
+        z-index: 100;
+        max-height: 50%;
+        max-width: 50%;
+        margin: 80% 0% 0% 0%;
+    }
+}
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    #headerName {
+        font-size: 7vw;;
+    }
+
+    /*first section*/
+    .imgProjectDetail {
+        padding-right: 20px;
+        float: left;
+        width: 250px;
+        height: 167px;
+    }
+
+    #section1 {
+        padding: 30px;
+        height: 280px;
+        width: 550px;
+        background-color: rgba(247, 247, 247, 0.99);
+        margin: auto;
+
+    }
+
+    .projectCardsBody {
+        font-family: 'Merriweather', serif;
+        text-align: justify;
+        width: 30vw;
+        float: left;
+        color: #49505F;
+        font-size: 15px;
+
+    }
+
+    /*section 2*/
+    #section2 {
+        height: 150px;
+        width: 550px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .ovalBody {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*section 3*/
+    #section3 {
+        padding: 0px;
+        height: 150px;
+        width: 550px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .image {
+        width: 300px;
+        height: 250px;
+    }
+
+    .imageBlock {
+        text-align: center;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .popup_img {
+        position: relative;
+        margin: 0 auto;
+        z-index: 100;
+        max-height: 50%;
+        max-width: 50%;
+        margin: 80% 0% 0% 0%;
+    }
+}
+
+@media (max-width: 661px) {
+    #section1 {
+        padding: 30px;
+        height: 300px;
+        width: 450px;
+        background-color: rgba(247, 247, 247, 0.99);
+        margin: auto;
+
+    }
+
+    .imgProjectDetail {
+        padding-right: 20px;
+        float: left;
+        width: 150px;
+        height: 100px;
+    }
+
+    .projectCardsBody {
+        width: 200px;
+        font-size: 15px;
+
+    }
+
+    /*section 2*/
+    #section2 {
+        height: 250px;
+        width: 450px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .ovalBody {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*section 3*/
+    #section3 {
+        padding: 0px;
+        height: 250px;
+        width: 450px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .image {
+        width: 300px;
+        height: 250px;
+    }
+
+    .imageBlock {
+        text-align: center;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .popup_img {
+        position: relative;
+        margin: 0 auto;
+        z-index: 100;
+        max-height: 50%;
+        max-width: 50%;
+        margin: 100% 0% 0% 0%;
+    }
+}
+
+@media (max-width: 530px) {
+
+    #section1 {
+
+        padding: 0;
+        height: 350px;
+        width: 300px;
+    }
+
+    .imgProjectDetail {
+
+        margin-left: 30%;
+        width: 150px;
+        height: 100px;
+    }
+
+    .projectCardsBody {
+        width: 200px;
+        font-size: 15px;
+        margin-left: 20%;
+    }
+
+    /*section 2*/
+    #section2 {
+        height: 300px;
+        width: 300px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .ovalBody {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*section 3*/
+    #section3 {
+        padding: 15px;
+        height: 1200px;
+        width: 300px;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .image {
+        width: 270px;
+        height: 250px;
+    }
+
+    .imageBlock {
+        text-align: center;
+        background-color: rgba(247, 247, 247, 0.99);
+    }
+
+    .popup_img {
+        position: relative;
+        margin: 0 auto;
+        z-index: 100;
+        max-height: 50%;
+        max-width: 50%;
+        margin: 200% 0% 0% 0%;
+    }
+}
+
+/* END "col-sm" small small screens*/

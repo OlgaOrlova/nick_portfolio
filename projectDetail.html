@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="mui/css/mui.min.css">
+    <link rel="stylesheet" href="css/projectDetail.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Roboto" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+            <div class="row">
+                <h1 id="headerName">Protect detail</h1>
+            </div>
+        </div>
+
+    </nav>
+</header>
+<div class="container" id="mainContent">
+    <div class="row">
+        <section id="section1"></section>
+        <section id="section2"></section>
+        <section id="section3"></section>
+    </div>
+</div>
+
+<script id="projectTemplate" type="text/x-handlebars-template">
+
+    <img class="imgProjectDetail" width="400" height="267" src="{{preview_img}}"
+         alt="Java ">
+    <div class="projectCardsBody"><h3 class="title">{{name}}</h3>
+        <p class="projectCardText">{{description}}</p>
+    </div>
+
+
+</script>
+<script id="projectTemplateSkills" type="text/x-handlebars-template">
+    {{#each skills}}
+    <div class="ovalBody col-lg-12 col-md-12 col-sm-12 col-xs-12"><p class="ovalBodyName">{{name}}</p></div>
+    {{/each}}
+</script>
+
+
+<script id="projectTemplateSkillsPic" type="text/x-handlebars-template">
+    {{#each picture}}
+    <div class="col-lg-6 col-md-6 col-sm-12 imageBlock"><img src="{{skill_img}}" height="auto" width="auto"
+                                                             class=" image"
+                                                             alt="picture"></div>
+    {{/each}}
+</script>
+<script src="js/handlebars-v4.0.10.js"></script>
+<script src="js/data.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/projectDetail.js"></script>
+<script src="mui/js/mui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,25 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+/*.ace {*/
+/*left: -295px; z-index: 1;*/
+/*}*/
+.projectBlok {
+    display: none;
+}
+#toTop {
+    height: 100%;
+    width: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.12);
+    position: fixed;
+    bottom: 0px;
+    /* отступ кнопки от нижнего края страницы*/
+    right: 0px;
+    cursor: pointer;
+    display: none;
+    color: #333;
+    padding-bottom: 650px;
+    font-family: verdana;
+    font-size: 15px;
+    z-index: 3;
+}
+
+#toTop:hover {
+    background-color: rgba(239, 86, 18, 0.18);
+    z-index: 3;
+}
+
+/*
+#scrollButtonName{
+font-family:verdana;
+font-size:11px;
+	margin-bottom: 1000px;
+
+}
+*/
+
 body {
-  font-size: 16px;
-  color: #fff;
-  background-color: white;
-  font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+
 }
 
 /** HEADER **/
+
 #header-nav {
-   margin-bottom: 0;
-  background-color: #383E4C;
-  border-radius: 0;
-  border: 0;
+    margin-bottom: 0;
+    background-color: #383E4C;
+    border-radius: 0;
+    border: 0;
 }
+
 /***Фон первого блока*****/
+
 #main-content {
     background-color: rgba(247, 247, 247, 0.99);
 }
-#prommain{
+
+.prommain {
     background-color: rgba(247, 247, 247, 0.99);
 }
+
+.prommain h2 {
+    padding-left: 100px;
+    background-color: white;
+    color: #49505F;
+}
+
 /********Лишнее************/
+
 /*
 #logo-img {
   background: url('../images/restaurant-logo_large.png') no-repeat;
@@ -28,57 +83,60 @@ body {
   margin: 10px 15px 10px 0;
 }
 */
+
 /******Для меню которое открывается*****/
+
 #nav-list {
-  margin-top: 10px;
+    margin-top: 10px;
     background-color: #383E4C;
 }
+
 #nav-list a {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
+
 #nav-list a:focus,
 #nav-list a:hover {
-  background: #49505F;
+    background: #49505F;
 }
-ul#nav-list {
-background: #383E4C;
-padding: 6px;
-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 
+ul#nav-list {
+    background: #383E4C;
+    padding: 6px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
+
+#input {
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+}
+
 /*.main-menu {
   margin-top: -234px;
 }*/
+
 ul li {
-  display: inline-block;
-  padding-left: 10px;
+    display: inline-block;
+    padding-left: 10px;
 }
+
 ul li a {
-  background: #383E4C none repeat scroll 0 0;
-  border: 1px solid #646d7c;
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  text-transform: capitalize;
+    background: #383E4C none repeat scroll 0 0;
+    border: 1px solid #646d7c;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 /******И.Ф.О******/
-.container .jumbotronTwo{
-  float: left;
+
+.container .jumbotronTwo {
+    float: left;
 }
-h1#name {
-  color:  #49505F;
-  font-size: 60px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px #000;
-}
- h4#work {
-  color:  #49505F;
-  font-size: 25px;
-  text-shadow: 1px 1px #333;
-    padding-bottom: 20px;
-}
+
 /*.container .jumbotron {
     background: url('../images/11-1%20-%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg') no-repeat;
     width: 403px;
@@ -86,273 +144,383 @@ h1#name {
     margin: 5px 5px 5px 0;
     text-align: right;
 }*/
+
 /*------------------------------------------------------------------
   	[Social Icons]
 ------------------------------------------------------------------*/
+
 .social-icons {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  font-size: 16px;
-  color: #515769;
-  background: #fff;
-  text-align: center;
-  border-radius: 50%;
-  vertical-align: middle;
-border: white;
-  padding: 11px;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    color: #515769;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: white;
+    padding: 11px;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
 .social-icons:hover {
-  color: #fff;
-  background: #ef5612;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+    color: #fff;
+    background: #ef5612;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+/*Сетка проектов*/
+
+.category-tile-project {
+    width: 290px;
+    height: 405px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+
 }
 
 
-
-
-
-
-/*********Второй блок**********/
-#twoblok {
-    background-color: red;
-    height: 500px;
-    padding-top: 30px;
-}
-h3#namaOfskill {
-    font-size: 40px;
-    color:  #383E4C;
-    text-transform: uppercase;
-    text-shadow: 2px 2px #000;}
-
-
-#menu-categoriesnamesOfAll-title{
-    color: black;
-    font-family: 'Merriweather', serif;
-}
-/*Сетка навыков*/
-#skills{
-    background-color: rgba(247, 247, 247, 0.99);
-
-}
-
-.category-tileSkills {
+.card-body {
+    background: linear-gradient(to right, #FFFFFF 0%, #EEEEEE 20%, #FFFFFF 100%);
     position: relative;
+    width: 290px;
+    height: 211px;
+    flex: 1 1 auto;
+    padding: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 0px;
+
+
+}
+
+.imgProject {
+
+}
+.projectItemButton {
+    position: absolute;
     background-color: #ef5612;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 200px;
-  height: 300px;
-  margin: 0 auto 15px;
+    color: white;
+    bottom: 0px;
+    margin-left: 142px;
+    margin-bottom: 15px;
+
 }
-p#nameSkills{
-  margin-top: 5px;
+
+.card-title {
     margin-left: 10px;
-    color: black;
-    font-size: 15px;
-   font-family: 'Merriweather', serif;
-}
-#nameSkillsIcons{
-
-display: inline-block;
-width: 25px;
-  height: 25px;
-padding: 5px;
-  text-align: center;
-  border-radius: 50%;
-  background: green;
-  font-size: 15px;
-  color:  #fff;
-margin-left: 10px;
-margin-top: 255px;
- position: absolute;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: #0f0f0f;
+    padding-bottom: 10px;
 
 }
 
-.#nameSkillsIcons:hover {
-  color: #fff;
-  background: #ef5612;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+.card-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #49505F;
+    padding-bottom: 10px;
+
 }
 
-
-
-.category-tileSkills:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
-
-#category-tileSkills + div {
-  margin-bottom: 50px;
-}
 
 /*Карусель*/
 
-#works{
-     background-color: rgba(247, 247, 247, 0.99);
+FworksmainContainer {
+    padding-left: 30px;
 }
 
-#caruselbutt{
+#blocks {
 
-   margin-bottom: -50px;
-    color: red;
-    background-color: red;
-}
-
-
-#cont{
+    color: #49505F;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.18);
+    position: relative;
+    display: inline-block;
     background-color: white;
+    overflow: hidden;
+    margin-left: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+    font-size: 15px;
 }
-.category-tileWorks{
-      background-color: #ef5612;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-  width: 300px;
-  height: 450px;
-/*margin-left: 30px;
-    margin-right: 60px;
-    padding-right: -100px;*/
+
+#skill {
+    position: relative;
+    text-align: center;
+
 }
+
+
+.listButto {
+    margin-top: 115px;
+    left: 80px;
+    position: absolute;
+    z-index: 2;
+    background-color: #ff5026;
+
+}
+
+.iconButtonCarusel2 {
+    color: #ff5026;
+}
+#buttTwo {
+
+    margin-left: 55px;
+    border: 2px solid #ff5026;
+    text-align: center;
+
+}
+
+.iconButtonCarusel1 {
+    color: #ff5026;
+}
+
+#buttOne {
+    border: 2px solid #ff5026;
+    text-align: center;
+}
+
+.image {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 250px;
+    height: 200px;
+}
+
+.image:hover {
+    opacity: .25;
+    z-index: 1;
+}
+
+/****Education****/
+#aboutme {
+    background: rgba(247, 247, 247, 0.99);
+    height: 620px;
+}
+.infoAboutMe {
+    position: relative;
+}
+
+.mainDisplyPic {
+    z-index: 1;
+}
+
+.formAboutme {
+    bottom: 500px;
+    z-index: 2;
+    box-shadow: 5px 5px 0px rgba(255, 80, 38, 0.37);
+    width: 450px;
+    height: 300px;
+    border-radius: 3%;
+    border: 2px outset #ff5026;
+    z-index: 2;
+}
+
+.nameAbounme {
+    width: 350px;
+    z-index: 2;
+    color: #49505F;
+    bottom: 510px;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+
+.list {
+    color: black;
+    position: absolute;
+    margin: 20px;
+    padding-bottom: 2px;
+}
+
+hr {
+    margin-top: 0px;
+    width: 300px;
+}
+
+.container#infoAboutme {
+
+    background: rgba(247, 247, 247, 0.99);
+    height: 550px;
+}
+/*END Education*/
+
 
 /****Фото главное и И.Ф.О****/
+
 /*****Фото главное******/
+
 /********** Large devices only **********/
+
 @media (min-width: 1200px) {
-.container .jumbotronone{
-  float: right;
-    background: url('../images/11-2jpg.jpg') no-repeat;
-    width: 450px;
-    height: 340px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    right: 0;
-    margin-left: 50px;
+    .container .jumbotronone {
+        float: right;
+        background: url('../images/11-2jpg.jpg') no-repeat;
+        width: 450px;
+        height: 340px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        right: 0;
+        margin-left: 50px;
+    }
 
+    .image {
+
+    }
+
+    .category-tileWorks {
+        padding: 0px;
+    }
 }
-}
+
 /********** Medium devices only **********/
+
 @media (min-width: 992px) and (max-width: 1199px) {
-     .item .col-md-12 {
+    /* .item .col-md-12 {
         margin-top: 50px;
         margin-left: 180px;
+    }*/
+    .category-tileWorks {
+        background-color: #ef5612;
+        border: 2px solid #3F0C1F;
+        overflow: hidden;
+        width: 250px;
+        height: 400px;
+        padding: 0px;
     }
 
+    .image {
 
- .container .jumbotronone {
-    background: url('../images/11-3.jpg') no-repeat;
-    width: 400px;
-    height: 302px;
-    float: right;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-  .container .jumbotronTwo{
-  float: left;
-}
-h1#name {
-  color:  #49505F;
-  font-size: 45px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px #000;
-}
- h4#work {
-  color:  #49505F;
-  font-size: 20px;
-  text-shadow: 1px 1px #333;
+        height: 200px;
+        width: 250px;
+        margin: 0px;
+    }
+
+    .container .jumbotronone {
+        background: url('../images/11-3.jpg') no-repeat;
+        width: 400px;
+        height: 302px;
+        float: right;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .container .jumbotronTwo {
+        float: left;
+    }
 }
 
-}
 @media (min-width: 768px) and (max-width: 991px) {
-    .item .col-sm-12 {
+    /* .item .col-sm-12 {
         margin-top: 50px;
         margin-left: 180px;
     }
+*/
+    .category-tileWorks {
+        background-color: #ef5612;
+        border: 2px solid #3F0C1F;
+        overflow: hidden;
+        width: 200px;
+        height: 350px;
+        padding: 0px;
+    }
 
+    .image {
 
- .container .jumbotronone {
-    background: url('../images/11-4.jpg') no-repeat;
-    width: 350px;
-    height: 264px;
-    float: right;
-    margin-bottom: 20px;
-    margin-top: 30px;
-  }
-  .container .jumbotronTwo{
-  float: left;
+        height: 150px;
+        width: 200px;
+    }
+
+    .container .jumbotronone {
+        background: url('../images/11-4.jpg') no-repeat;
+        width: 350px;
+        height: 264px;
+        float: right;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .container .jumbotronTwo {
+        float: left;
+    }
 }
-h1#name {
-  color:  #49505F;
-  font-size: 40px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px #000;
-}
- h4#work {
-  color:  #49505F;
-  font-size: 15px;
-  text-shadow: 1px 1px #333;
-}
-}
+
 /********** Extra small devices only **********/
+
 @media (min-width: 100px) and (max-width: 767px) {
+    .category-tileWorks {
+        background-color: #ef5612;
+        border: 2px solid #3F0C1F;
+        overflow: hidden;
+        width: 100px;
+        height: 150px;
+        padding: 0px;
+    }
 
-.container .jumbotronone {
-    margin-bottom: 20px;
-    margin-top: 30px;
+    .category-tileWorks img {
+        height: 50px;
+        width: 100px;
+    }
 
-  }
-   h1#name {
-  color:  #49505F;
-  font-size: 20px;
-  text-transform: uppercase;
+    .image {
 
+        height: 50px;
+        width: 100px;
+        margin: 0px;
+    }
 
-}
- h4#work {
-     text-align: center;
-  color:  #49505F;
+    .container .jumbotronone {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
 
+    .social-icons {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+        color: #515769;
+        background: #fff;
+        text-align: center;
+        border-radius: 50%;
+        vertical-align: middle;
+        border: white;
+        padding: 11px;
+        transition-duration: 300ms;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+    }
 
-}
-   .social-icons {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  font-size: 10px;
-  color: #515769;
-  background: #fff;
-  text-align: center;
-  border-radius: 50%;
-  vertical-align: middle;
-border: white;
-  padding: 11px;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
     .jumbotronTwo {
         width: 100%;
     }
-  }
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-
-
-  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }
 }
 
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 
+@media (max-width: 479px) {
+    .category-tileWorks {
+        margin-left: 10px;
+        width: 70px;
+        height: 70px;
+        padding: 0px;
+    }
 
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+}
